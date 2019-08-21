@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesPardinho.API", "GamesPardinho.API\GamesPardinho.API.csproj", "{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesPardinho.Web.API", "GamesPardinho.Web.API\GamesPardinho.Web.API.csproj", "{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesPardinho.Web.Models", "GamesPardinho.Web.Models\GamesPardinho.Web.Models.csproj", "{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
