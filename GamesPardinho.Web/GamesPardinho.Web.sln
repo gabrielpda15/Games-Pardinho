@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesPardinho.Web.API", "GamesPardinho.Web.API\GamesPardinho.Web.API.csproj", "{DA619B2C-366A-4E28-B9FA-05DC7CEE1F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesPardinho.Web.Models", "GamesPardinho.Web.Models\GamesPardinho.Web.Models.csproj", "{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesPardinho.Web.Models", "GamesPardinho.Web.Models\GamesPardinho.Web.Models.csproj", "{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesPardinho.Web.Extensions", "GamesPardinho.Web.Extensions\GamesPardinho.Web.Extensions.csproj", "{D493DE4B-9A94-4AA6-91C5-CCF64574D66E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE9545C-F42E-4BC2-B2CA-A009CF83B556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D493DE4B-9A94-4AA6-91C5-CCF64574D66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D493DE4B-9A94-4AA6-91C5-CCF64574D66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D493DE4B-9A94-4AA6-91C5-CCF64574D66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D493DE4B-9A94-4AA6-91C5-CCF64574D66E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
