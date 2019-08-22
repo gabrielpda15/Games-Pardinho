@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using GamesPardinho.Web.Extensions;
 using GamesPardinho.Web.Models.Entities.Security;
+using GamesPardinho.Web.Models.Repository;
+using GamesPardinho.Web.Models.Repository.Base;
 using GamesPardinho.Web.Models.Repository.Context;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -37,14 +39,19 @@ namespace GamesPardinho.Web.API
         {
             services.AddControllers();
             services.AddMvc();
+            services.AddHttpContextAccessor();
+            services.AddUserContextLoader();
 
             var authConfig = Configuration.GetSection<AuthConfig>();
             services.AddSingleton(authConfig);
 
             services.AddDbContext<ModelDbContext>(options =>
             {
+                options.UseLazyLoadingProxies();
                 options.UseSqlServer(Configuration.GetConnectionString(CONN_STRING));
             });
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             services.AddIdentity<Identity, Role>()
                 .AddEntityFrameworkStores<ModelDbContext>()
