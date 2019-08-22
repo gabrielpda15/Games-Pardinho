@@ -1,4 +1,5 @@
-﻿using GamesPardinho.Web.Models.Entities.League;
+﻿using GamesPardinho.Web.Models.Entities.Base;
+using GamesPardinho.Web.Models.Entities.League;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Text;
 namespace GamesPardinho.Web.Models.Entities.Security
 {
     [Table("Security_IdentityUser")]
-    public class Identity : IdentityUser<int>
+    public class Identity : IdentityUser<int>, IBaseEntity
     {
         [Key]
         public override int Id { get; set; }
@@ -36,6 +37,39 @@ namespace GamesPardinho.Web.Models.Entities.Security
         [Required(ErrorMessage = "E-Mail é um campo obrigatório")]
         [Display(Name = "E-Mail")]
         public override string Email { get; set; }
+
+        [DataType("varchar")]
+        [StringLength(50)]
+        [ScaffoldColumn(false)]
+        [Display(Name = "Usuário de Criação")]
+        public string CreationUser { get; set; }
+
+        [StringLength(50)]
+        [DataType("varchar")]
+        [ScaffoldColumn(false)]
+        [Display(Name = "Usuário de Edição")]
+        public string EditionUser { get; set; }
+
+        [StringLength(50)]
+        [DataType("varchar")]
+        [ScaffoldColumn(false)]
+        [Display(Name = "IP de Criação")]
+        public string CreationIp { get; set; }
+
+        [StringLength(50)]
+        [DataType("varchar")]
+        [ScaffoldColumn(false)]
+        [Display(Name = "IP de Edição")]
+        public string EditionIp { get; set; }
+
+        [ScaffoldColumn(false)]
+        [Display(Name = "Data de Criação")]
+        public DateTime? CreationDate { get; set; }
+
+        [ScaffoldColumn(false)]
+        [ConcurrencyCheck]
+        [Display(Name = "Data de Edição")]
+        public DateTime? EditionDate { get; set; }
 
         public virtual int? LeagueAccountId { get; set; }
         public virtual LeagueAccount LeagueAccount { get; set; }

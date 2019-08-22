@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GamesPardinho.Web.Models.Entities.Base
 {
-    public class BaseEntity
+    public class BaseEntity : IBaseEntity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
