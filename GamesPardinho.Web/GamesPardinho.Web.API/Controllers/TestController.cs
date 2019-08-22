@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using GamesPardinho.Web.Models.Repository.Base;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,11 @@ namespace GamesPardinho.Web.API.Controllers
             return await Task.FromResult(Ok(new { User.Identity.IsAuthenticated }));
         }
 
-
+        [AllowAnonymous]
+        [HttpGet("unitofwork")]
+        public async Task<IActionResult> GetUnitOfWork([FromServices]IUnitOfWork unitOfWork)
+        {
+            return await Task.FromResult(Ok());
+        }
     }
 }
