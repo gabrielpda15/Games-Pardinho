@@ -11,7 +11,7 @@ using System.Text;
 
 namespace GamesPardinho.Web.Models.Repository.Context
 {
-    public class ModelDbContext : IdentityDbContext<Identity, Role, int, IdentityClaim, IdentityRole, IdentityLogin, RoleClaim, IdentityToken>
+    public sealed class ModelDbContext : IdentityDbContext<Identity, Role, int, IdentityClaim, IdentityRole, IdentityLogin, RoleClaim, IdentityToken>
     {
         public ModelDbContext(DbContextOptions<ModelDbContext> options) : base(options) { }
 
