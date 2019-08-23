@@ -17,6 +17,13 @@ namespace GamesPardinho.Web.Models.Entities.League
         [ScaffoldColumn(false)]
         public string SummonerName { get; set; }
 
+        [DataType("varchar")]
+        [StringLength(120, ErrorMessage = "O Id de Invocador pode ter no máximo 120 caracteres.")]
+        [Required(ErrorMessage = "Id de Invocador é obrigatório")]
+        [Display(Name = "Id de Invocador")]
+        [ScaffoldColumn(false)]
+        public string SummonerId { get; set; }
+
         [Required(ErrorMessage = "Elo é obrigatório")]
         [ScaffoldColumn(false)]
         public Base.Elo Elo { get; set; }
