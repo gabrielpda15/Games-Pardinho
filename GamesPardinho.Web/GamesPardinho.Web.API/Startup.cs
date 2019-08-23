@@ -38,7 +38,7 @@ namespace GamesPardinho.Web.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMvc();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddHttpContextAccessor();
             services.AddUserContextLoader();
 
@@ -77,7 +77,34 @@ namespace GamesPardinho.Web.API
                 };
             });
 
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Version = "V1",
+                    Title = "Games Pardinho API",
+                    Description = "A API para campeonatos de Games Pardinho",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                    {
+                        Name = "Gabriel Pupim de Almeida",
+                        Email = "gabriel.pda15@gmail.com",
+                        Url = new Uri("https://github.com/gabrielpda15")
+                    },
+                    License = new Microsoft.OpenApi.Models.OpenApiLicense()
+                    {
+                        Name = "MIT",
+                        Url = new Uri("https://choosealicense.com/licenses/mit/")
+                    }
+                });
 
+                options.AddSecurityDefinition(SCHEME, new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
+                {
+                    Description = "Authorization: Bearer {token}",
+                    Name = "Authorization",
+                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey
+                });
+            });
 
         }
 
@@ -92,6 +119,12 @@ namespace GamesPardinho.Web.API
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Games Pardinho API V1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

@@ -2,6 +2,7 @@
 using GamesPardinho.Web.Models.Entities.Security;
 using GamesPardinho.Web.Models.Repository.Base;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -24,20 +25,44 @@ namespace GamesPardinho.Web.API.Controllers.Security
             this.userManager = userManager;
         }
 
+        [HttpPost]
+        [ProducesResponseType(typeof(Identity), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(IdentityResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(Exception), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesDefaultResponseType]
         public override async Task<IActionResult> Post([FromBody] Identity entity, CancellationToken ct)
         {
             try
-            {                
-                entity.CreationDate = DateTime.Now;
-                entity.EditionDate = DateTime.Now;
-                entity.CreationIp = UserContext.IP;
-                entity.EditionIp = UserContext.IP;
-                entity.CreationUser = ((ClaimsPrincipal)UserContext.Principal).Claims.FirstOrDefault().Value;
-                entity.EditionUser = ((ClaimsPrincipal)UserContext.Principal).Claims.FirstOrDefault().Value;
+            {
+                Repository.OnAdd(entity, UserContext);
 
                 var result = await userManager.CreateAsync(entity, entity.Password);
 
                 if (result.Succeeded) return CreatedAtAction(nameof(Post), entity);
+                else return BadRequest(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        [HttpPut]
+        [ProducesResponseType(typeof(Identity), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(IdentityResult), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(Exception), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesDefaultResponseType]
+        public override async Task<IActionResult> Put([FromBody]Identity entity, CancellationToken ct)
+        {
+            try
+            {
+                Repository.OnUpdate(entity, UserContext);
+
+                var result = await userManager.UpdateAsync(entity);
+
+                if (result.Succeeded) return Ok(entity);
                 else return BadRequest(result);
             }
             catch (Exception ex)
