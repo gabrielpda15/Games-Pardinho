@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Security.Claims;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -23,11 +24,31 @@ namespace GamesPardinho.Web.Models.Repository.Base
             Context = context;
         }
 
+        public virtual void OnAdd(TEntity entity, IUserContext userContext)
+        {
+            entity.CreationDate = DateTime.Now;
+            entity.CreationIp = userContext.IP;
+            entity.CreationUser = ((ClaimsPrincipal)userContext.Principal).Claims.FirstOrDefault().Value;
+            OnUpdate(entity, userContext);
+        }
+
+        public virtual void OnUpdate(TEntity entity, IUserContext userContext)
+        {
+            entity.EditionDate = DateTime.Now;
+            entity.EditionIp = userContext.IP;
+            entity.EditionUser = ((ClaimsPrincipal)userContext.Principal).Claims.FirstOrDefault().Value;
+        }
+
+        protected virtual IQueryable<TEntity> GetEntities()
+        {
+            return Entities;
+        }
+
         public virtual async Task<IEnumerable<TEntity>> QueryAsync(Expression<Func<IQueryable<TEntity>, IQueryable<TEntity>>> filter, IUserContext userContext, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, CancellationToken ct = default)
         {
             return await Task.Run(() =>
             {
-                var query = (IQueryable<TEntity>)Entities;
+                var query = GetEntities();
 
                 if (filter == null) filter = x => x;
 
@@ -44,7 +65,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(() =>
             {
-                var query = (IQueryable<TEntity>)Entities;
+                var query = GetEntities();
 
                 if (filter == null) filter = x => true;
                 query = query.Where(filter);                
@@ -60,7 +81,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(async () =>
             {
-                var query = (IQueryable<TEntity>)Entities;
+                var query = GetEntities();
 
                 query = query.Where(filter);
 
@@ -76,7 +97,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             try
             {
-                return await ((IQueryable<TEntity>)Entities).SingleAsync(x => x.Id == id, ct);
+                return await GetEntities().SingleAsync(x => x.Id == id, ct);
             }
             catch { throw new QueryException(); }            
         }
@@ -85,12 +106,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(async () =>
             {
-                entity.CreationDate = DateTime.Now;
-                entity.EditionDate = DateTime.Now;
-                entity.CreationIp = userContext.IP;
-                entity.EditionIp = userContext.IP;
-                entity.CreationUser = userContext.Principal.Identity.Name;
-                entity.EditionUser = userContext.Principal.Identity.Name;
+                OnAdd(entity, userContext);
 
                 await Entities.AddAsync(entity, ct).ConfigureAwait(false);
 
@@ -103,14 +119,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
             return await Task.Run(async () =>
             {
                 foreach (var entity in entities)
-                {
-                    entity.CreationDate = DateTime.Now;
-                    entity.EditionDate = DateTime.Now;
-                    entity.CreationIp = userContext.IP;
-                    entity.EditionIp = userContext.IP;
-                    entity.CreationUser = userContext.Principal.Identity.Name;
-                    entity.EditionUser = userContext.Principal.Identity.Name;
-                }
+                    OnAdd(entity, userContext);
 
                 await Entities.AddRangeAsync(entities, ct).ConfigureAwait(false);
 
@@ -122,9 +131,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(() =>
             {
-                entity.EditionDate = DateTime.Now;
-                entity.EditionIp = userContext.IP;
-                entity.EditionUser = userContext.Principal.Identity.Name;
+                OnUpdate(entity, userContext);
 
                 Entities.Update(entity);
                 return entity;
@@ -136,11 +143,7 @@ namespace GamesPardinho.Web.Models.Repository.Base
             return await Task.Run(() =>
             {
                 foreach (var entity in entities)
-                {
-                    entity.EditionDate = DateTime.Now;
-                    entity.EditionIp = userContext.IP;
-                    entity.EditionUser = userContext.Principal.Identity.Name;
-                }                
+                    OnUpdate(entity, userContext);
 
                 Entities.UpdateRange(entities);
 

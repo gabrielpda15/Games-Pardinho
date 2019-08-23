@@ -64,7 +64,7 @@ namespace GamesPardinho.Web.Models.Controller
             catch (Exception ex) { return BadRequest(ex); }
         }
 
-        [HttpPost("Multi")]
+        [HttpPost("All")]
         [ProducesResponseType(typeof(IEnumerable<object>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Exception), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]

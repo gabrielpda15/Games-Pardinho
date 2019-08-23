@@ -11,6 +11,8 @@ namespace GamesPardinho.Web.Models.Repository.Base
 {
     public interface IAsyncRepository<TEntity> where TEntity : class, IBaseEntity
     {
+        void OnAdd(TEntity entity, IUserContext userContext);
+        void OnUpdate(TEntity entity, IUserContext userContext);
         Task<IEnumerable<TEntity>> QueryAsync(Expression<Func<IQueryable<TEntity>, IQueryable<TEntity>>> filter, IUserContext userContext, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, CancellationToken ct = default);
         Task<IEnumerable<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> filter, IUserContext userContext, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, CancellationToken ct = default);
         Task<TEntity> QueryScalarAsync(Expression<Func<TEntity, bool>> filter, IUserContext userContext, CancellationToken ct = default);
