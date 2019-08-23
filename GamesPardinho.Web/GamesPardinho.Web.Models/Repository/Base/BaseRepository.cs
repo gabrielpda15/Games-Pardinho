@@ -64,13 +64,21 @@ namespace GamesPardinho.Web.Models.Repository.Base
 
                 query = query.Where(filter);
 
-                return await query.SingleAsync(ct);
+                try
+                {
+                    return await query.SingleAsync(ct);
+                }
+                catch { throw new QueryException(); }
             }, ct);
         }
 
         public virtual async Task<TEntity> QueryByIdAsync(int id, IUserContext userContext, CancellationToken ct = default)
         {
-            return await ((IQueryable<TEntity>)Entities).SingleAsync(x => x.Id == id, ct);
+            try
+            {
+                return await ((IQueryable<TEntity>)Entities).SingleAsync(x => x.Id == id, ct);
+            }
+            catch { throw new QueryException(); }            
         }
 
         public virtual async Task<TEntity> AddAsync(TEntity entity, IUserContext userContext, CancellationToken ct = default)
@@ -114,16 +122,12 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(() =>
             {
-                try
-                {
-                    entity.EditionDate = DateTime.Now;
-                    entity.EditionIp = userContext.IP;
-                    entity.EditionUser = userContext.Principal.Identity.Name;
-                
-                    Entities.Update(entity);
-                    return entity;
-                }
-                catch { return null; }                
+                entity.EditionDate = DateTime.Now;
+                entity.EditionIp = userContext.IP;
+                entity.EditionUser = userContext.Principal.Identity.Name;
+
+                Entities.Update(entity);
+                return entity;
             }, ct);
         }
 
@@ -148,14 +152,16 @@ namespace GamesPardinho.Web.Models.Repository.Base
         {
             return await Task.Run(async () =>
             {
+                TEntity toRemove;
                 try
                 {
-                    var toRemove = await Entities.SingleAsync(x => x.Id == id);
+                    toRemove = await Entities.SingleAsync(x => x.Id == id);                                        
+                }
+                catch { throw new QueryException(); }
 
-                    Entities.Remove(toRemove);
+                Entities.Remove(toRemove);
 
-                    return true;
-                } catch { return false; }
+                return true;
             }, ct);
         }
 
@@ -169,16 +175,15 @@ namespace GamesPardinho.Web.Models.Repository.Base
                 {
                     try
                     {
-                        if (!int.TryParse(sid, out int id)) throw new Exception();
+                        if (!int.TryParse(sid, out int id)) throw new FormatException("Can't convert given ids to integer");
                         var toRemove = await Entities.SingleAsync(x => x.Id == id, ct);
                         Entities.Remove(toRemove);
                     }
-                    catch
-                    {
-                        toReturn.Add(sid);
-                    }
+                    catch (FormatException ex) { throw ex; }
+                    catch { toReturn.Add(sid); }
                 }
 
+                if (toReturn.Count == 0) return null;
                 return string.Join(',', toReturn);
             }, ct);
         }
