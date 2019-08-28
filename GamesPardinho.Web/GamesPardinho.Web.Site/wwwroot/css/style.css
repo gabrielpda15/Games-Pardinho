@@ -508,24 +508,16 @@
 				background-color: #2daae4;
 			}
 
-			.icon.rounded.fa-facebook {
-				background-color: #39599f;
+			.icon.rounded.fa-twitch {
+				background-color: #82399f;
 			}
 
-			.icon.rounded.fa-google-plus {
+			.icon.rounded.fa-youtube {
 				background-color: #c91e1f;
 			}
 
-			.icon.rounded.fa-dribbble {
-				background-color: #c4376b;
-			}
-
-			.icon.rounded.fa-tumblr, .icon.rounded.fa-linkedin {
+			.icon.rounded.fa-github {
 				background-color: #31516a;
-			}
-
-			.icon.rounded.fa-rss {
-				background-color: #f2600b;
 			}
 
 /* Image */
@@ -1031,13 +1023,26 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
+		background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/banner.jpg);
+		/*background-image: url(../images/dark_tint.png), url(../images/banner.jpg);*/
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
 	}
+		
+		#banner img {
+			z-index: initial;
+			position: absolute;
+			top: 0;
+			left: 0;
+			max-width: 100%;
+			max-height: 100%;
+			height: 25.6em;
+			width: 50em;
+			filter: contrast(40%);
+		}
 
 		#banner :last-child {
 			margin-bottom: 0;
