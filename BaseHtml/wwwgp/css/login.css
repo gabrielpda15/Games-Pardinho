@@ -61,7 +61,7 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 40% !important; /* Could be more or less, depending on screen size */
+  width: 30% !important; /* Could be more or less, depending on screen size */
   min-width: 345px;
   min-height: 505px;
 }
@@ -73,6 +73,15 @@ span.psw {
   width: 40% !important; /* Could be more or less, depending on screen size */
   min-width: 620px;
   min-height: 390px;
+}
+
+.modal-content-small {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40% !important; /* Could be more or less, depending on screen size */
+  min-width: 620px;
+  min-height: 325px;
 }
 
 .btnlogin {

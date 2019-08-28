@@ -508,24 +508,16 @@
 				background-color: #2daae4;
 			}
 
-			.icon.rounded.fa-facebook {
-				background-color: #39599f;
+			.icon.rounded.fa-twitch {
+				background-color: #82399f;
 			}
 
-			.icon.rounded.fa-google-plus {
+			.icon.rounded.fa-youtube {
 				background-color: #c91e1f;
 			}
 
-			.icon.rounded.fa-dribbble {
-				background-color: #c4376b;
-			}
-
-			.icon.rounded.fa-tumblr, .icon.rounded.fa-linkedin {
+			.icon.rounded.fa-github {
 				background-color: #31516a;
-			}
-
-			.icon.rounded.fa-rss {
-				background-color: #f2600b;
 			}
 
 /* Image */

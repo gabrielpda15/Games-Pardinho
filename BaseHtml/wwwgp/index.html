@@ -11,6 +11,8 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -37,7 +39,7 @@
 		<!-- Login Form -->
 			<div id="loginForm" class="modal">
 				<section>
-					<form class="modal-content animate" action="#">
+					<form class="modal-content animate" action="#" method="post">
 						<div class="imgcontainer">
 							<span onclick="document.getElementById('loginForm').style.display='none'" class="close" title="Fechar">&times;</span>
 							<img src="images/profile_placeholder.gif" alt="Avatar" class="avatar">
@@ -47,10 +49,10 @@
 	
 							<div class="12u$">
 								<label class="overridelabel" for="uname"><b>Usuário</b></label>
-								<input type="text" placeholder="Digite seu usuário" name="uname" required>
+								<input type="text" placeholder="Digite seu usuário" name="uname" maxlength="30" required>
 							
 								<label class="overridelabel" for="psw"><b>Senha</b></label>
-								<input type="password" placeholder="Digite sua senha" name="psw" required>							
+								<input type="password" placeholder="Digite sua senha" name="psw" maxlength="60" required>							
 							
 								<input type="checkbox" id="remember" name="remember" checked>
 								<label  class="overridelabel" for="remember">Lembrar usuário?</label>							
@@ -65,8 +67,35 @@
 							<div>
 								<a onclick="document.getElementById('regForm').style.display='block';
 											document.getElementById('loginForm').style.display='none'" class="button alt btnbottom">Cadastrar</a>
-								<a class="button alt btnbottom" href="#">Esqueci minha senha?</a>
+								<a onclick="document.getElementById('forgotForm').style.display='block';
+											document.getElementById('loginForm').style.display='none'" class="button alt btnbottom" href="#">Esqueci minha senha?</a>
 							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+			
+			<div id="forgotForm" class="modal">
+				<section>
+					<form class="modal-content-small animate" action="#" method="post">
+						<div class="imgcontainer">
+							<span onclick="document.getElementById('forgotForm').style.display='none'" class="close" title="Fechar">&times;</span>
+						</div>
+						
+						<div class="formcontainer">
+							<div class="12u$">							
+								<br><br>
+								<p>Digite no campo abaixo o email que você usou para cadastrar sua conta nesse site.</p>
+							
+								<label class="overridelabel" for="email"><b>Email</b></label>
+								<input type="email" placeholder="Digite seu email" name="email" required>
+								<br>
+							
+							</div>
+						</div>
+						
+						<div class="bottomactions-padding" style="background-color:#f1f1f1">
+							<input type="submit" value="Enviar" class="special btnlogin" />
 						</div>
 					</form>
 				</section>
@@ -74,7 +103,7 @@
 			
 			<div id="regForm" class="modal">
 				<section>
-					<form class="modal-content-big animate" action="#">
+					<form class="modal-content-big animate" action="#" method="post">
 						<div class="imgcontainer">
 							<span onclick="document.getElementById('regForm').style.display='none'" class="close" title="Fechar">&times;</span>
 						</div>
@@ -84,25 +113,43 @@
 								<div class="row">
 									<div class="5u">
 										<label class="overridelabel" for="fname"><b>Nome</b></label>
-										<input type="text" placeholder="Digite seu nome" name="fname" required>
+										<input type="text" placeholder="Digite seu nome" name="fname" maxlength="20" required>
 									</div>
 									<div class="7u$">
 										<label class="overridelabel" for="lname"><b>Sobrenome</b></label>
-										<input type="text" placeholder="Digite seu sobrenome" name="lname" required>
+										<input type="text" placeholder="Digite seu sobrenome" name="lname" maxlength="100" required>
 									</div>
 								</div>
 								
 								<label class="overridelabel" for="email"><b>Email</b></label>
-								<input type="text" placeholder="Digite seu email" name="email" required>
+								<input type="email" placeholder="Digite seu email" name="email" maxlength="60" required>
+								
+								<label class="overridelabel" for="username"><b>Usuário</b></label>
+								<input type="text" placeholder="Digite seu usuário" name="username" maxlength="30" required>
 							
 								<div class="row">
 									<div class="6u">
-										<label class="overridelabel" for="psw"><b>Senha</b></label>
-										<input type="password" placeholder="Digite sua senha" name="psw" required>									
+										<label class="overridelabel" for="password"><b>Senha</b></label>
+										<input type="password" placeholder="Digite sua senha" id="password" name="password" maxlength="60" minlength="8" required>									
 									</div>
 									<div class="6u$">
-										<label class="overridelabel" for="cpsw"><b>Confirmar senha</b></label>
-										<input type="password" placeholder="Confirm sua senha" name="cpsw" required>
+										<label class="overridelabel" for="confirm_password"><b>Confirmar senha</b></label>
+										<input type="password" placeholder="Confirme sua senha" id="confirm_password" name="confirm_password" maxlength="60" minlength="8" required>
+										<script>
+											var password = document.getElementById("password")
+											  , confirm_password = document.getElementById("confirm_password");
+
+											function validatePassword(){
+											  if(password.value != confirm_password.value) {
+												confirm_password.setCustomValidity("Senhas estão diferentes!");
+											  } else {
+												confirm_password.setCustomValidity('');
+											  }
+											}
+
+											password.onchange = validatePassword;
+											confirm_password.onkeyup = validatePassword;									
+										</script>
 									</div>
 								</div>
 								<br>
@@ -138,28 +185,30 @@
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color1 fa-random"></i>
-								<h3>Lorem ipsum dolor</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
-								<a href="#" class="button big">Saiba mais!</a>
+								<h3>RCL</h3>
+								<h5>Random Championship of League</h5>
+								<p>Um campeonato cujos times serão aleatórizados pelo nosso sistema, levando em conta seu elo na solo/duo e suas possíveis roles. É possivel ocorrer o autofill de posições!</p>
 							</section>
 						</div>
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color9 fa-users"></i>
-								<h3>Consectetur adipisicing</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
-								<a href="#" class="button big">Saiba mais!</a>
+								<h3>TBT</h3>
+								<h5>Team Battle Tournament</h5>
+								<p>Traga um time completo! Iremos calcular a pontuação e mostrar os possíveis campeonatos disponíveis.</p><br>
 							</section>
 						</div>
 						<div class="4u$ 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color6 fa-ellipsis-h"></i>
-								<h3>Adipisicing elit totam</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
-								<a href="#" class="button big">Saiba mais!</a>
+								<h3>E muitos outros!</h3>
+								<h5>Muitos mesmo!</h5>
+								<p>Temos campeonatos de outros jogos também como CS:GO, Algum jogo ae, etc... Venha conhecer!</p><br>
 							</section>
 						</div>
 					</div>
+						
+						<a href="campeonatos.html" class="button big">Saiba mais!</a>
 				</div>
 			</section>
 
@@ -175,25 +224,25 @@
 							<section class="4u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/profile_placeholder.gif" alt="" />
 								<h4>Jadson Cristian</h4>
-								<p>Adora rinha de anão</p>
+								<p>Fundador / Adora rinha de anão</p>
 							</section>
 							<section class="4u 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Alguem ae</h4>
-								<p>Banana</p>
+								<h4>Rodrigo G Silva</h4>
+								<p>Fundador</p>
 							</section>
 							<section class="4u$ 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Gabriel P. de Almeida</h4>
+								<h4>Gabriel P Almeida</h4>
 								<p>Programador</p>
 							</section>
 						</div>
 					</section>
 					<footer>
-						<p>Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer! Um texto qualquer!</p>
+						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
 						<ul class="actions">
 							<li>
-								<a href="#" class="button big">Saiba mais!</a>
+								<a href="equipe.html" class="button big">Saiba mais!</a>
 							</li>
 						</ul>
 					</footer>
@@ -208,22 +257,18 @@
 							<ul class="copyright">
 								<li>&copy; Games Pardinho. Todos os direitos reservados.</li>
 								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-								<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
 							<ul class="icons">
 								<li>
-									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+									<a class="icon rounded fa-twitch" href="https://www.twitch.tv/gamespardinho" target="_blank"><span class="label">Twitch</span></a>
 								</li>
 								<li>
-									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+									<a class="icon rounded fa-youtube"><span class="label">Youtube</span></a>
 								</li>
 								<li>
-									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
-								</li>
-								<li>
-									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+									<a class="icon rounded fa-github" href="https://github.com/gabrielpda15/Games-Pardinho" target="_blank"><span class="label">GitHub</span></a>
 								</li>
 							</ul>
 						</div>
