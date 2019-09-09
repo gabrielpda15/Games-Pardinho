@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using GamesPardinho.Web.Site.Models;
+using GamesPardinho.Web.Models.Entities.Security;
+using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace GamesPardinho.Web.Site.Controllers
 {
@@ -18,14 +21,49 @@ namespace GamesPardinho.Web.Site.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return await Task.FromResult(View());
         }
 
-        public IActionResult Privacy()
+        public async Task<IActionResult> Teams()
         {
-            return View();
+            return await Task.FromResult(View(nameof(Teams)));
+        }
+
+        public async Task<IActionResult> Tournaments()
+        {
+            return await Task.FromResult(View(nameof(Tournaments)));
+        }
+
+        [HttpGet]
+        [ActionName("Login")]
+        public IActionResult Login()
+        {
+            return PartialView("_Login");
+        }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        [ActionName("Login")]
+        public async Task<IActionResult> Login(string username, string password)
+        {
+            try
+            {
+                await ApiManager.Login(new User() { Username = username, Password = password });
+                HttpContext.Session.SetString("auth-token", JsonConvert.SerializeObject(ApiManager.token));
+            }
+            catch (ApiManager.AuthorizationException ex)
+            {
+                HttpContext.Session.SetString("login-fail", ex.Message);
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

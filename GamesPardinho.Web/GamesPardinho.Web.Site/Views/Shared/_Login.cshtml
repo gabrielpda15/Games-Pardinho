@@ -1,27 +1,34 @@
-﻿<div id="loginForm" class="modal">
+﻿@{
+    var fail = Context.Session.TryGetString("login-fail", out string value);
+}
+
+<div id="loginForm" class="modal">
     <section>
-        <form class="modal-content animate" action="#" method="post">
+        <form class="modal-content animate" asp-controller="Home" asp-action="Login" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('loginForm').style.display='none'" class="close" title="Fechar">&times;</span>
-                <img src="images/profile_placeholder.gif" alt="Avatar" class="avatar">
+                <img src="~/images/profile_placeholder.gif" alt="Avatar" class="avatar">
             </div>
 
             <div class="formcontainer">
 
                 <div class="12u$">
-                    <label class="overridelabel" for="uname"><b>Usuário</b></label>
-                    <input type="text" placeholder="Digite seu usuário" name="uname" maxlength="30" required>
+                    <label class="overridelabel" for="username"><b>Usuário</b></label>
+                    <input type="text" placeholder="Digite seu usuário" name="username" maxlength="30" required>
 
-                    <label class="overridelabel" for="psw"><b>Senha</b></label>
-                    <input type="password" placeholder="Digite sua senha" name="psw" maxlength="60" required>
+                    <label class="overridelabel" for="password"><b>Senha</b></label>
+                    <input type="password" placeholder="Digite sua senha" name="password" maxlength="60" required>
 
-                    <input type="checkbox" id="remember" name="remember" checked>
-                    <label class="overridelabel" for="remember">Lembrar usuário?</label>
                     <br>
-                    <div class="btnlogin-container">
-                        <input type="submit" value="Login" class="special btnlogin" />
-                    </div>
-                </div>
+                    <font color="red"><p>@value</p></font>
+
+                        <!--<input type="checkbox" id="remember" name="remember" checked>
+    <label class="overridelabel" for="remember">Lembrar usuário?</label>-->
+
+                        <div class="btnlogin-container">
+                            <input type="submit" value="Login" class="special btnlogin" />
+                        </div>
+</div>
             </div>
 
             <div class="12u$ bottonactions-container" style="background-color:#f1f1f1">
@@ -35,3 +42,12 @@
         </form>
     </section>
 </div>
+
+@{
+    if (fail)
+    {
+        <script>
+            document.getElementById('loginForm').style.display = 'block';
+        </script>
+    }
+}

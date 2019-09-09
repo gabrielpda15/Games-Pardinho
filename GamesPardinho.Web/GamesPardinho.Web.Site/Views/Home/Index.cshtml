@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewData["landing"] = true;
 }
 
 <!-- Banner -->
@@ -8,7 +9,16 @@
     <p>Pronto para aquele campeonato de respeito?</p>
     <ul class="actions">
         <li>
-            <a href="#" class="button big">Participar agora!</a>
+            @{
+                if (Context.Session.Validate())
+                {
+                    <a asp-controller="Members" asp-action="Index" class="button big">Participar agora!</a>
+                }
+                else
+                {
+                    <a onclick="document.getElementById('loginForm').style.display='block'" class="button big">Participar agora!</a>
+                }
+            }
         </li>
     </ul>
 </section>
@@ -47,7 +57,7 @@
             </div>
         </div>
 
-        <a href="campeonatos.html" class="button big">Saiba mais!</a>
+        <a asp-controller="Home" asp-action="Tournaments" class="button big">Saiba mais!</a>
     </div>
 </section>
 
@@ -61,17 +71,17 @@
         <section class="profiles">
             <div class="row">
                 <section class="4u 6u(medium) 12u$(xsmall) profile">
-                    <img src="images/profile_placeholder.gif" alt="" />
+                    <img src="~/images/profile_placeholder.gif" alt="" />
                     <h4>Jadson Cristian</h4>
                     <p>Fundador / Adora rinha de anão</p>
                 </section>
                 <section class="4u 6u$(medium) 12u$(xsmall) profile">
-                    <img src="images/profile_placeholder.gif" alt="" />
+                    <img src="~/images/profile_placeholder.gif" alt="" />
                     <h4>Rodrigo G Silva</h4>
                     <p>Fundador</p>
                 </section>
                 <section class="4u$ 6u$(medium) 12u$(xsmall) profile">
-                    <img src="images/profile_placeholder.gif" alt="" />
+                    <img src="~/images/profile_placeholder.gif" alt="" />
                     <h4>Gabriel P Almeida</h4>
                     <p>Programador</p>
                 </section>
@@ -81,7 +91,7 @@
             <p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
             <ul class="actions">
                 <li>
-                    <a href="equipe.html" class="button big">Saiba mais!</a>
+                    <a asp-controller="Home" asp-action="Teams" class="button big">Saiba mais!</a>
                 </li>
             </ul>
         </footer>
