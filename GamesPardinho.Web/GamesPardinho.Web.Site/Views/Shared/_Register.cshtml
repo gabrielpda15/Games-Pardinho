@@ -1,0 +1,61 @@
+﻿<div id="regForm" class="modal">
+    <section>
+        <form class="modal-content-big animate" action="#" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('regForm').style.display='none'" class="close" title="Fechar">&times;</span>
+            </div>
+
+            <div class="formcontainer">
+                <div class="12u$">
+                    <div class="row">
+                        <div class="5u">
+                            <label class="overridelabel" for="fname"><b>Nome</b></label>
+                            <input type="text" placeholder="Digite seu nome" name="fname" maxlength="20" required>
+                        </div>
+                        <div class="7u$">
+                            <label class="overridelabel" for="lname"><b>Sobrenome</b></label>
+                            <input type="text" placeholder="Digite seu sobrenome" name="lname" maxlength="100" required>
+                        </div>
+                    </div>
+
+                    <label class="overridelabel" for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Digite seu email" name="email" maxlength="60" required>
+
+                    <label class="overridelabel" for="username"><b>Usuário</b></label>
+                    <input type="text" placeholder="Digite seu usuário" name="username" maxlength="30" required>
+
+                    <div class="row">
+                        <div class="6u">
+                            <label class="overridelabel" for="password"><b>Senha</b></label>
+                            <input type="password" placeholder="Digite sua senha" id="password" name="password" maxlength="60" minlength="8" required>
+                        </div>
+                        <div class="6u$">
+                            <label class="overridelabel" for="confirm_password"><b>Confirmar senha</b></label>
+                            <input type="password" placeholder="Confirme sua senha" id="confirm_password" name="confirm_password" maxlength="60" minlength="8" required>
+                            <script>
+                                var password = document.getElementById("password")
+                                    , confirm_password = document.getElementById("confirm_password");
+
+                                function validatePassword() {
+                                    if (password.value != confirm_password.value) {
+                                        confirm_password.setCustomValidity("Senhas estão diferentes!");
+                                    } else {
+                                        confirm_password.setCustomValidity('');
+                                    }
+                                }
+
+                                password.onchange = validatePassword;
+                                confirm_password.onkeyup = validatePassword;
+                            </script>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="bottomactions-padding" style="background-color:#f1f1f1">
+                <input type="submit" value="Cadastrar" class="special btnlogin" />
+            </div>
+        </form>
+    </section>
+</div>	

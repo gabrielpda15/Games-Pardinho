@@ -22,9 +22,14 @@ namespace GamesPardinho.Web.Site
 
         public static void Validate(this TokenData token)
         {
-            var validation = token == null ? false : (token.Expiration > DateTime.Now);
+            var validation = token.TryValidate();
             if (!validation)
                 throw new TokenExpiratedException();
+        }
+
+        public static bool TryValidate(this TokenData token)
+        {
+            return token == null ? false : (token.Expiration > DateTime.Now);            
         }
 
         public static JwtSecurityToken Read(this TokenData token)
@@ -73,6 +78,11 @@ namespace GamesPardinho.Web.Site
             token = null;
         }
 
+        public static void Logout()
+        {
+            ClearAuthorization();
+        }
+
         public static async Task Login(User user, CancellationToken ct = default)
         {
             var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, MEDIA_TYPE);
@@ -89,6 +99,17 @@ namespace GamesPardinho.Web.Site
             token = JsonConvert.DeserializeObject<TokenData>(json);
 
             Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.ToString());
+        }
+
+        public static async Task<bool?> CheckRole(string role, CancellationToken ct = default)
+        {
+            if (!token.TryValidate()) return null;
+
+            var response = await Client.PostAsync($"login/Validate/{role}", new StringContent(string.Empty), ct);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.Accepted) return true;
+            else if (response.StatusCode == System.Net.HttpStatusCode.BadRequest) return false;
+            else return null;
         }
 
         public static async Task<T> Get<T>(string url, CancellationToken ct = default)
@@ -120,6 +141,13 @@ namespace GamesPardinho.Web.Site
 
             var obj = JsonConvert.DeserializeObject<T>(responseBody);
             return obj;
+        }
+
+        public static async Task Post(string url, CancellationToken ct = default)
+        {
+            token.Validate();
+
+            await Post<object, object>(url, null, ct);
         }
 
 

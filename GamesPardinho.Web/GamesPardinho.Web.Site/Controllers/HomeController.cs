@@ -9,6 +9,7 @@ using GamesPardinho.Web.Site.Models;
 using GamesPardinho.Web.Models.Entities.Security;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using GamesPardinho.Web.Extensions;
 
 namespace GamesPardinho.Web.Site.Controllers
 {
@@ -19,6 +20,12 @@ namespace GamesPardinho.Web.Site.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+        }
+
+        public async Task<IActionResult> Test()
+        {
+            var r = await ApiManager.CheckRole("Administrador");
+            return r.ReturnCase<IActionResult>(Ok("Test Ok!"), Unauthorized("Not Ok!"), Unauthorized("Usuario errado!"));
         }
 
         public async Task<IActionResult> Index()
@@ -47,6 +54,7 @@ namespace GamesPardinho.Web.Site.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
+            ApiManager.Logout();
             return RedirectToAction("Index", "Home");
         }
 

@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GamesPardinho.Web.Extensions\GamesPardinho.Web.Extensions.csproj" />
     <ProjectReference Include="..\GamesPardinho.Web.Models\GamesPardinho.Web.Models.csproj" />
   </ItemGroup>
 
