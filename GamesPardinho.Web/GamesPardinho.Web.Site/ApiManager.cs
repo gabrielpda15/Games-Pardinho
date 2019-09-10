@@ -39,7 +39,7 @@ namespace GamesPardinho.Web.Site
             public DateTime Creation { get; set; }
             public DateTime Expiration { get; set; }
 
-            public override string? ToString()
+            public override string ToString()
             {
                 return Token;
             }

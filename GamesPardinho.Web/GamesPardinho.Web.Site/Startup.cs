@@ -60,6 +60,16 @@ namespace GamesPardinho.Web.Site
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\images")),
                 RequestPath = new PathString("/images")
             });
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\js")),
+                RequestPath = new PathString("/js")
+            });
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\fonts")),
+                RequestPath = new PathString("/fonts")
+            });
 
             app.UseRouting();
 
