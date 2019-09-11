@@ -24,7 +24,6 @@ namespace GamesPardinho.Web.Site
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
@@ -37,23 +36,19 @@ namespace GamesPardinho.Web.Site
             services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStatusCodePagesWithReExecute("/error/{0}");
-            app.UseExceptionHandler("/Home/Exception");
 
-            /*
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseExceptionHandler("/exception");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }*/
+                app.UseExceptionHandler("/Home/Exception");
+                app.UseHsts(); // https://aka.ms/aspnetcore-hsts.
+            }
 
             app.UseHttpsRedirection();
 
