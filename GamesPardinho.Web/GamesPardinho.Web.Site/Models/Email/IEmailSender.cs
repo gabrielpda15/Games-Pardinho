@@ -8,6 +8,6 @@ namespace GamesPardinho.Web.Site.Models.Email
 {
     public interface IEmailSender
     {
-        Task SendEmailAsync(MailMessage mail);
+        Task SendEmailAsync(Action<MailMessage> mailConfiguration);
     }
 }

@@ -21,32 +21,12 @@ namespace GamesPardinho.Web.Site.Models.Email
         {
             try
             {
-                string toEmail = string.IsNullOrEmpty(email) ? _emailSettings.ToEmail : email;
-
                 MailMessage mail = new MailMessage()
                 {
-                    From = new MailAddress(_emailSettings.UsernameEmail, "Jose Carlos Macoratti")
+                    From = new MailAddress(_emailSettings.UsernameEmail, _emailSettings.UsernameName)
                 };
 
-
-                MailMessage mail = new MailMessage()
-                {
-                    From = new MailAddress(_emailSettings.UsernameEmail, "Jose Carlos Macoratti")
-                };
-
-
-                mail.To.Add(new MailAddress(toEmail));
-                mail.CC.Add(new MailAddress(_emailSettings.CcEmail));
-                mail.Bcc.Add(new MailAddress());
-
-                mail.Subject = "Macoratti .net - " + subject;
-                mail.Body = message;
-                mail.IsBodyHtml = true;
-                mail.Priority = MailPriority.High;
-
-                //outras opções
-                //mail.Attachments.Add(new Attachment(arquivo));
-                //
+                mailConfiguration.Invoke(mail);
 
                 using (SmtpClient smtp = new SmtpClient(_emailSettings.PrimaryDomain, _emailSettings.PrimaryPort))
                 {
