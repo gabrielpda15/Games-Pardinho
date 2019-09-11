@@ -10,6 +10,7 @@ using GamesPardinho.Web.Models.Entities.Security;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using GamesPardinho.Web.Extensions;
+using Microsoft.AspNetCore.WebUtilities;
 
 namespace GamesPardinho.Web.Site.Controllers
 {
@@ -22,8 +23,11 @@ namespace GamesPardinho.Web.Site.Controllers
             _logger = logger;
         }
 
+        [ActionName("Test")]
         public async Task<IActionResult> Test()
         {
+            throw new Exception();
+
             var r = await ApiManager.CheckRole("Administrador");
             return r.ReturnCase<IActionResult>(Ok("Test Ok!"), Unauthorized("Not Ok!"), Unauthorized("Usuario errado!"));
         }
@@ -74,10 +78,16 @@ namespace GamesPardinho.Web.Site.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [Route("error/{code:int}")]
+        public IActionResult Error(int code)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel { Code = code, Name = ReasonPhrases.GetReasonPhrase(code), Description = "Breve Descrição" });
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Exception()
+        {
+            return View(new ErrorViewModel { Code = 500, Name = ReasonPhrases.GetReasonPhrase(500), Description = "" });
         }
     }
 }

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Games Pardinho</title>
+    <title>@(ViewData["Title"] == null ? "Games Pardinho" : $"Games Pardinho - {ViewData["Title"]}")</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -19,9 +19,10 @@
         <link rel="stylesheet" href="~/css/style.css" />
         <link rel="stylesheet" href="~/css/style-xlarge.css" />
         <link rel="stylesheet" href="~/css/login.css" />
+        <link rel="stylesheet" href="~/css/error.css" />
     </environment>
 </head>
-<body class="@(((bool)ViewData["landing"]) == true ? "landing" : "")">
+<body class="@(ViewData["Body"] != null ? (string)ViewData["Body"] : "")">
     <!-- Header -->
     <header id="header">
         <h1><a asp-controller="Home" asp-action="Index">Games Pardinho</a></h1>
@@ -62,32 +63,37 @@
 
     @RenderBody()
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="8u 12u$(medium)">
-                    <ul class="copyright">
-                        <li>&copy; Games Pardinho. Todos os direitos reservados.</li>
-                        <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-                    </ul>
+    @{
+        if (ViewData["Body"] != null ? !((string)ViewData["Body"]).Contains("error") : true)
+        {
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="8u 12u$(medium)">
+                            <ul class="copyright">
+                                <li>&copy; Games Pardinho. Todos os direitos reservados.</li>
+                                <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+                            </ul>
+                        </div>
+                        <div class="4u$ 12u$(medium)">
+                            <ul class="icons">
+                                <li>
+                                    <a class="icon rounded fa-twitch" href="https://www.twitch.tv/gamespardinho" target="_blank"><span class="label">Twitch</span></a>
+                                </li>
+                                <li>
+                                    <a class="icon rounded fa-youtube"><span class="label">Youtube</span></a>
+                                </li>
+                                <li>
+                                    <a class="icon rounded fa-github" href="https://github.com/gabrielpda15/Games-Pardinho" target="_blank"><span class="label">GitHub</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="4u$ 12u$(medium)">
-                    <ul class="icons">
-                        <li>
-                            <a class="icon rounded fa-twitch" href="https://www.twitch.tv/gamespardinho" target="_blank"><span class="label">Twitch</span></a>
-                        </li>
-                        <li>
-                            <a class="icon rounded fa-youtube"><span class="label">Youtube</span></a>
-                        </li>
-                        <li>
-                            <a class="icon rounded fa-github" href="https://github.com/gabrielpda15/Games-Pardinho" target="_blank"><span class="label">GitHub</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </footer>
+        }
+    }
 
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
