@@ -14,19 +14,9 @@
         <h1>oops!</h1>
         <h2>Error @Model.Code : @Model.Name</h2>
         <p>@Model.Description</p>
-        <a class="button" asp-controller="Home" asp-action="Index">go back</a>
+        <a class="button" asp-controller="Home" asp-action="Index">voltar</a>
         <div class="errorpage-social">
-            <ul class="icons">
-                <li>
-                    <a class="icon rounded fa-twitch" href="https://www.twitch.tv/gamespardinho" target="_blank"><span class="label">Twitch</span></a>
-                </li>
-                <li>
-                    <a class="icon rounded fa-youtube"><span class="label">Youtube</span></a>
-                </li>
-                <li>
-                    <a class="icon rounded fa-github" href="https://github.com/gabrielpda15/Games-Pardinho" target="_blank"><span class="label">GitHub</span></a>
-                </li>
-            </ul>
+            <partial name="_Icons.cshtml" />
         </div>
     </div>
 </div>
