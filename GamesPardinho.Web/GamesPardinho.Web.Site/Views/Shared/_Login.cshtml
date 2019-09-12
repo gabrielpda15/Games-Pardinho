@@ -1,5 +1,7 @@
 ﻿@{
     var fail = Context.Session.TryGetString("login-fail", out string value);
+    var conn = (ApiManager.ConnectionObject)ViewData["Connection"];
+    var connected = (conn?.Connected).GetValueOrDefault(false);
 }
 
 <div id="loginForm" class="modal">
@@ -25,10 +27,17 @@
                         <!--<input type="checkbox" id="remember" name="remember" checked>
     <label class="overridelabel" for="remember">Lembrar usuário?</label>-->
 
-                        <div class="btnlogin-container">
-                            <input type="submit" value="Login" class="special btnlogin" />
-                        </div>
-</div>
+                    <div class="btnlogin-container">
+                        <input type="submit" value="Login" class="special btnlogin tooltip" disabled="@(connected ? "" : "disabled")" />
+                        @Html.Label("ToolTip", "Erro de comunicação com a API", new { @class = "tooltiptext" })
+                        @{
+                            if (!connected)
+                            {
+                                <span class="tooltiptext" style="color: red">Erro de comunicação com a API</span>
+                            }
+                        }
+                    </div>
+                </div>
             </div>
 
             <div class="12u$ bottonactions-container" style="background-color:#f1f1f1">

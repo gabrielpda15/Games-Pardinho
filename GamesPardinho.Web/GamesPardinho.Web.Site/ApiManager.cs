@@ -20,6 +20,42 @@ namespace GamesPardinho.Web.Site
         public static TokenData token { get; set; } = null;
         private const string MEDIA_TYPE = "application/json";
 
+        private class CheckObject
+        {
+            public string Result { get; set; }
+
+            public bool Check()
+            {
+                return Result == "Ok!";
+            }
+        }
+
+        public class ConnectionObject
+        {
+            public string Color { get; set; }
+            public string Text { get; set; }
+            public bool Connected { get; set; }
+
+            public static readonly ConnectionObject Online = new ConnectionObject { Connected = true, Color = "#00c71e", Text = "Online" };
+            public static readonly ConnectionObject Offline = new ConnectionObject { Connected = true, Color = "#c70017", Text = "Offline" };
+        }
+
+        public static ConnectionObject CheckConnection()
+        {
+            return Test().GetAwaiter().GetResult() ? ConnectionObject.Online : ConnectionObject.Offline;
+        }
+
+        public static async Task<bool> Test()
+        {
+            try
+            {
+                var obj = await Get<CheckObject>("Test", anonymous: true).ConfigureAwait(false);
+
+                return obj.Check();
+            }
+            catch { return false; }            
+        }
+
         public static void Validate(this TokenData token)
         {
             var validation = token.TryValidate();
@@ -112,9 +148,10 @@ namespace GamesPardinho.Web.Site
             else return null;
         }
 
-        public static async Task<T> Get<T>(string url, CancellationToken ct = default)
+        public static async Task<T> Get<T>(string url, CancellationToken ct = default, bool anonymous = false)
         {
-            token.Validate();                
+            if (!anonymous)
+                token.Validate();                
 
             var response = await Client.GetAsync(url, ct);
             var responseBody = await response.Content.ReadAsStringAsync();

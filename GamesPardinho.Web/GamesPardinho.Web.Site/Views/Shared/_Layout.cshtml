@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@{ 
+    var conn = ApiManager.CheckConnection();
+    ViewData.Add("Connection", conn);    
+}
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -74,6 +79,7 @@
                             <ul class="copyright">
                                 <li>&copy; Games Pardinho. Todos os direitos reservados.</li>
                                 <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+                                <li>Status da API: <a style="color: @conn.Color">@conn.Text</a></li>
                             </ul>
                         </div>
                         <div class="4u$ 12u$(medium)">

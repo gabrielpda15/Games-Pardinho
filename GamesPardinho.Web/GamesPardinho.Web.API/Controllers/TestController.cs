@@ -12,6 +12,7 @@ namespace GamesPardinho.Web.API.Controllers
     [Route("api/[controller]")]
     public class TestController : Controller
     {
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
