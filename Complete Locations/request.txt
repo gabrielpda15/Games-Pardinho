@@ -1,0 +1,3 @@
+http://api.geonames.org/childrenJSON?formatted=true&geonameId=0000000&style=full&username=demo
+
+https://pt.stackoverflow.com/questions/76640/existe-alguma-api-que-liste-estados-e-cidades

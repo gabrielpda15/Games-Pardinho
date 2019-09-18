@@ -1,0 +1,2140 @@
+{
+  "totalResultsCount": 5,
+  "geonames": [
+    {
+      "timezone": {
+        "gmtOffset": 1,
+        "timeZoneId": "Europe/Oslo",
+        "dstOffset": 2
+      },
+      "bbox": {
+        "east": 3.434845577758324,
+        "south": -54.4507993522734,
+        "north": -54.3887383509872,
+        "west": 3.286776428037342,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Bouvet Island",
+      "astergdem": 261,
+      "countryId": "3371123",
+      "fcl": "A",
+      "srtm3": 240,
+      "cc2": "NO",
+      "countryCode": "BV",
+      "lat": "-54.43333",
+      "fcode": "PCLD",
+      "continentCode": "AN",
+      "adminCode1": "00",
+      "lng": "3.4",
+      "geonameId": 3371123,
+      "toponymName": "Bouvet Island",
+      "population": 0,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Bouveteiland",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ቡቬት ደሴት",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزيرة بوفيه",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "বভেট দ্বীপ",
+          "lang": "as"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bove Adası",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Бувэ востраў",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Остров Буве",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "বোভেট দ্বীপ",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Enez Bouvet",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Buve Ostrva",
+          "lang": "bs"
+        },
+        {
+          "name": "Illa Bouvet",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetův ostrov",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ynys Bouvet",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetø",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetinsel",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet ƒudomekpo nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Νήσος Μπουβέ",
+          "lang": "el"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet Island",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Isla Bouvet",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet\u2019 saar",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet Uhartea",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزیره بووت",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet\u2019nsaari",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetoy",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Île Bouvet",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Oileán Bouvet",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Illa Bouvet",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "બૌવેત આઇલેન્ડ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "איי בובה",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "बौवेत द्वीप",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Otok Bouvet",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet-sziget",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Insula de Bouvet",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pulau Bouvet",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouveteyja",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Isola Bouvet",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ブーベ島",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ბუვეს კუნძული",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಬೋವೆಟ್ ದ್ವೀಪ",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "부베 섬",
+          "lang": "ko"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Bouvet_Island",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet sala",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Buvē sala",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Боувитови острови",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ബൗവെറ്റ് ദ്വീപ്",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "बोउवेट बेट",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet Island",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet Island",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetøya",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "बुभेट टापु",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouveteiland",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetøya",
+          "lang": "nn"
+        },
+        {
+          "name": "Bouvetøya",
+          "lang": "no"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Isla Bouvet",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ବୌଭେଟ୍ ଆଇସଲ୍ୟାଣ୍ଡ",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Wyspa Bouveta",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ilha Bouvet",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Insla Bouvet",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Insula Bouvet",
+          "lang": "ro"
+        },
+        {
+          "name": "Остров Буве",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet-sullot",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetov ostrov",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetov otok",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Буве Острва",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvetön",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kisiwa cha Bouvet",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "பொவேட் தீவுகள்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "బొవెట్ దీవి",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "เกาะบูเวต",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የቦውቬት ደሴት",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Motu Puveti",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bouvet Adası",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Острів Буве",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "بؤویٹ آئلینڈ",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Đảo Bouvet (Na Uy)",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "布维特岛",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Bouvet Island",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Bouvet Island",
+      "fclName": "country, state, region,...",
+      "countryName": "Bouvet Island",
+      "fcodeName": "dependent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": 5,
+        "timeZoneId": "Indian/Kerguelen",
+        "dstOffset": 5
+      },
+      "bbox": {
+        "east": 73.859146,
+        "south": -53.192001,
+        "north": -52.909416,
+        "west": 72.596535,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Territory of Heard Island and McDonald Islands",
+      "astergdem": 1662,
+      "countryId": "1547314",
+      "fcl": "A",
+      "srtm3": 1634,
+      "cc2": "AU",
+      "countryCode": "HM",
+      "lat": "-53.11711",
+      "fcode": "PCLD",
+      "continentCode": "AN",
+      "adminCode1": "00",
+      "lng": "73.50952",
+      "geonameId": 1547314,
+      "toponymName": "Territory of Heard Island and McDonald Islands",
+      "population": 0,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Heard-eiland en McDonald-eilande",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ኽርድ ደሴቶችና ማክዶናልድ ደሴቶች",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزيرة هيرد وجزر ماكدونالد",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "হাৰ্ড দ্বীপ আৰু মেক্\u200cডোনাল্ড দ্বীপ",
+          "lang": "as"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Hörd və Makdonald Adaları",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Гэрда востраў і МакДоналда астравы",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Остров Хърд и Острови Макдоналд",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "হার্ড দ্বীপ এবং ম্যাকডোনাল্ড দ্বীপপুঞ্জ",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Inizi Heard ha McDonald",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Herd i Mekdonald Ostrva",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Illa Heard i Illes McDonald",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heardův ostrov a McDonaldovy ostrovy",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ynys Heard ac Ynysoedd McDonald",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- og McDonald-øerne",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- und McDonald-Inseln",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard kple Mcdonald ƒudomekpowo nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Νήσοι Χερντ και Μακντόναλντ",
+          "lang": "el"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard Island and McDonald Islands",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Herda kaj Makdonaldaj Insuloj",
+          "lang": "eo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Islas Heard y McDonald",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard ja McDonald saared",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard eta McDonald Uharteak",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزیرهٔ هرد و جزایر مک\u200cدونالد",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- ja McDonaldinsaaret",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- og McDonald-oyggjarnar",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "name": "Île Heard et îles McDonald",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Oileán Heard agus Oileáin McDonald",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Illa Heard e Illas McDonald",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "હર્ડ આઇલૅંડ એંડ મેકડોનાલ્ડ આઇલૅંડ્સ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "איי הרד ואיי מקדונלנד",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "हर्ड द्वीप और मैकडोनॉल्ड द्वीप",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Otok Heard i Otoci McDonald",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard és McDonald Szigetek",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pulau Heard dan Kepulauan McDonald",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard og McDonaldseyjar",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Isole Heard e McDonald",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ハード島・マクドナルド諸島",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ჰერდის კუნძული და მაკდონალდის კუნძულები",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಹರ್ಡ್ ದ್ವೀಪ ಮತ್ತು ಮಾಕ್\u200cಡೊನಾಲ್ಡ್ ದ್ವೀಪಗಳು",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "허드 맥도널드 제도",
+          "lang": "ko"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heardo ir McDonaldo Salų Sritis",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Hērda un Makdonalda salas",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Хардови острови и Мекдоналд Острови",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഹിയേര്\u200dഡ് ദ്വീപും മക്ഡൊണാള്ഡ് ദ്വീപുകളും",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "हर्ड बेट आणि मैकडोनाल्ड बेट",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard Island and McDonald Islands",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard Island and McDonald Islands",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heardøya og McDonaldøyene",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "हर्ड टापु र म्याकडोनाल्ड टापु",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- en McDonaldeilanden",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- og McDonaldsøyane",
+          "lang": "nn"
+        },
+        {
+          "name": "Heard- og McDonaldøyene",
+          "lang": "no"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ହାର୍ଡ ଦ୍ବୀପପୁଞ୍ଜ ଏବଂ ମ୍ୟାକଡୋନାଲ୍ ଦ୍ବୀପପୁଞ୍ଜ",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Wyspy Heard i McDonalda",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ilha Heard e Ilhas McDonald",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Inslas da Heard e da McDonlad",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Insula Heard și Insulele McDonald",
+          "lang": "ro"
+        },
+        {
+          "name": "Острова Херд и Макдональд",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- ja McDonald-sullot",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "හාඩ් සහ මැක්ඩොනල්ඩ් දූපත්",
+          "lang": "si"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heardove ostrovy a McDonaldove ostrovy",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Otok Heard in otočje McDonald",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Херд и Мекдоналд Острва",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard- och McDonaldöarna",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kisiwa cha Heard na Visiwa vya McDonald",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ஹேர்ட் மற்றும் மெக்டொனால்டு",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "హెర్డ్ దీవి మరియు మాక్ డోనాల్డ్ దీవులు",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "เกาะเฮิร์ดและหมู่เกาะแมกดอนัลด์",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የኧርድ እና የማክዶናልድ ደሴቶች",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻOtumotu Heati mo Makitonali",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Heard Adası ve McDonald Adaları",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Острови Херд і Мак-Дональд",
+          "lang": "uk"
+        },
+        {
+          "name": "HMHEA",
+          "lang": "unlc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ہیئرڈ آئلینڈ اور میکڈونالڈ آئلینڈز",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Đảo Heard và Quần đảo McDonald",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "赫德与麦克唐纳群岛",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Heard Island ne-McDonald Islands",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Heard Island and McDonald Islands",
+      "fclName": "country, state, region,...",
+      "countryName": "Heard Island and McDonald Islands",
+      "fcodeName": "dependent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -2,
+        "timeZoneId": "Atlantic/South_Georgia",
+        "dstOffset": -2
+      },
+      "bbox": {
+        "east": -26.252069712,
+        "south": -59.46319341,
+        "north": -53.640518512,
+        "west": -41.806660441,
+        "accuracyLevel": 10
+      },
+      "asciiName": "South Georgia and the South Sandwich Islands",
+      "astergdem": -9999,
+      "countryId": "3474415",
+      "fcl": "A",
+      "srtm3": -32768,
+      "cc2": "GS",
+      "countryCode": "GS",
+      "lat": "-56",
+      "fcode": "PCLD",
+      "continentCode": "AN",
+      "adminCode1": "00",
+      "lng": "-33",
+      "geonameId": 3474415,
+      "toponymName": "South Georgia and the South Sandwich Islands",
+      "population": 30,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "SGSSI",
+          "lang": "abbr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suid-Georgië en die Suid-Sandwich-eilande",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ደቡብ ጆርጂያ እና የደቡብ ሳንድዊች ደሴቶች",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "দক্ষিণ জৰ্জিয়া আৰু দক্ষিণ চেণ্ডৱিচ্\u200c দ্বীপ",
+          "lang": "as"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cənub Gürcüstan və Cənub Sandvilç Adaları",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Южна Джорджия и Южни Сандвичеви Острови",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "দক্ষিণ জর্জিয়া ও দক্ষিণ স্যান্ডউইচ দ্বীপপুঞ",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Inizi Georgia ar Su hag Inizi Sandwich ar Su",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Južna Džordžija i Južna Sendvič Ostrva",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Illes Geòrgia del Sud i Sandwich del Sud",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Jižní Georgie a Jižní Sandwichovy ostrovy",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ynysoedd De Georgia a De Sandwich",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "South Georgia og De Sydlige Sandwichøer",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Südgeorgien und die Südlichen Sandwichinseln",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Anyiehe Georgia kple Anyiehe Sandwich ƒudomekpowo nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Νότια Γεωργία και Νότιες Νήσοι Σάντουιτς",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "South Georgia and South Sandwich Islands",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sud-Georgio kaj Sud-Sandviĉinsuloj",
+          "lang": "eo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Islas Georgia del Sur y Sandwich del Sur",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Lõuna-Georgia ja Lõuna-Sandwichi saared",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Hegoaldeko Georgia eta Hegoaldeko Sandwich uharteak",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جورجیای جنوبی و جزایر ساندویچ جنوبی",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Etelä-Georgia ja Eteläiset Sandwichsaaret",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suðurgeorgia",
+          "lang": "fo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Géorgie du Sud-et-les îles Sandwich du Sud",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "An tSeoirsia Theas agus Oileáin Sandwich Theas",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Xeorxia do Sur e Illas Sandwich",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "દક્ષિણ જ્યોર્જીયા અને દક્ષિણ સેન્ડવિચ આઇલેન્ડ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ג׳ורג׳יה הדרומית ואיי סנדוויץ׳ הדרומיים",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "दक्षिण जोर्जिया और दक्षिण सैंडविच द्वीपसमूह",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Južna Gruzija i Južni Sendvič Otoci",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Dél Grúzia és a Déli Szendvics-szigetek",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kepulauan South Sandwich dan South Georgia",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suður-Georgía og Suður-Sandvíkureyjar",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Georgia del Sud e isole Sandwich meridionali",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "南ジョージア島・南サンドイッチ諸島",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "სამხრეთი ჯორჯია და სამხრეთ სენდვიჩის კუნძულები",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ದಕ್ಷಿಣ ಜಾರ್ಜಿಯಾ ಮತ್ತು ದಕ್ಷಿಣ ಸ್ಯಾಂಡ್\u200cವಿಚ್ ದ್ವೀಪಗಳು",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "사우스조지아 사우스샌드위치 제도",
+          "lang": "ko"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pietų Džordžija ir Pietų Sandvičo salos",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Dienviddžordžija un Dienvidsendviču salas",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Јужна Грузија и Јужни Сендвич Острови",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ദക്ഷിണ ജോര്\u200dജ്ജിയയും ദക്ഷിണ സാന്\u200dഡ്\u200cവിച്ച് ദ്വീപുകളും",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "दक्षिण जॉर्जिया आणि दक्षिण सँडविच बेटे",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "South Georgia and the South Sandwich Islands",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "South Georgia and the South Sandwich Islands",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "တောင် ဂျော်ဂျီယာ နှင့် တောင် ဆင်းဒဝစ်ဂျ် ကျွန်းစုများ",
+          "lang": "my"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sør-Georgia og de sørlige Sandwich-øyene",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Zuid-Georgië en Zuidelijke Sandwicheilanden",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sør-Georgia og Sør-Sandwich-øyane",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଦକ୍ଷିଣ ଜର୍ଜିଆ ଏବଂ ଦକ୍ଷିଣ ସାଣ୍ଡୱିଚ୍ ଦ୍ବୀପପୁଞ୍ଜ",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Georgia Południowa i Sandwich Południowy",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Geórgia do Sul e Ilhas Sandwich do Sul",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Georgia dal Sid e las Inslas Sandwich dal Sid",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Georgia de Sud și Insulele Sandwich de Sud",
+          "lang": "ro"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Южная Джорджия и Южные Сандвичевы Острова",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Lulli Georgia ja Lulli Sandwich-sullot",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Južná Georgia a Južné Sandwichove ostrovy",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Južna Georgia in Južni Sandwichevi otoki",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Јужна Џорџија и Јужна Сендвич Острва",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sydgeorgien och Sydsandwichöarna",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Jojia Kusini na Visiwa vya Sandwich Kusini",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "தென் ஜியார்ஜியா மற்றும் தென் சான்ட்விச் தீவுகள்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "దక్షిణ జార్జియా మరియు దక్షిణ సాండ్విచ్ దీవులు",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "เกาะเซาท์จอร์เจียและหมู่เกาะเซาท์แซนด์วิช",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ደቡብ ጆርጂያ እና የደቡድ ሳንድዊች ደሴቶች",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻOtumotu Siosia-tonga mo Saniuisi-tonga",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Güney Georgia ve Güney Sandwich Adaları",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Південна Джорджія та Південні Сандвічеві Острови",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جنوبی جارجیا اور جنوبی سینڈوچ جزائر",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Quần đảo Nam Georgia và Nam Sandwich",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "南乔治亚岛和南桑威齐群岛",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-South Georgia ne-South Sandwich Islands",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "South Georgia and South Sandwich Islands",
+      "fclName": "country, state, region,...",
+      "countryName": "South Georgia and the South Sandwich Islands",
+      "fcodeName": "dependent political entity",
+      "adminName1": ""
+    },
+    {
+      "bbox": {
+        "east": 77.598808,
+        "south": -50.020264,
+        "north": -15.88459954977133,
+        "west": 40.32914529683842,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Territory of the French Southern and Antarctic Lands",
+      "astergdem": -9999,
+      "countryId": "1546748",
+      "fcl": "A",
+      "srtm3": -32768,
+      "cc2": "TF",
+      "countryCode": "TF",
+      "lat": "-43",
+      "fcode": "PCLIX",
+      "continentCode": "AN",
+      "adminCode1": "00",
+      "lng": "67",
+      "geonameId": 1546748,
+      "toponymName": "Territory of the French Southern and Antarctic Lands",
+      "population": 140,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "TAAF",
+          "lang": "abbr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franse Suidelike Gebiede",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፈረንሳይ ደቡባዊ ግዛቶች",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "المقاطعات الجنوبية الفرنسية",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "দক্ষিণ ফ্ৰান্সৰ অঞ্চল",
+          "lang": "as"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransız Cənub teritoriyası",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Французскія Паўднёвыя тэрыторыі",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Френски Южни Територии",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ফরাসী দক্ষিণাঞ্চল",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Douaroù aostral Frañs",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francuske Južne Teritorije",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territoris Francesos del Sud",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francouzská jižní teritoria",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Tiriogaethau Ffrengig y De",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franske Besiddelser i Det Sydlige Indiske Ocean",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Französische Süd- und Antarktisgebiete",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Anyiehe Franseme nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Γαλλικά Νότια Εδάφη",
+          "lang": "el"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Southern Territories",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territorios Australes Franceses",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Prantsuse Lõunaalad",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frantziaren Lurralde Australak",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "مستعمره\u200cهای جنوبی فرانسه",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ranskan ulkopuoliset eteläiset alueet",
+          "lang": "fi"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Terres australes françaises",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Críocha Deisceartacha na Fraince",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territorios Franceses do Sul",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ફ્રેંચ સદર્ન ટેરિટરીઝ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "טריטוריות דרומיות של צרפת",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ़्रांसीसी दक्षिणी क्षेत्र",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francuski Južni Teritoriji",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francia Déli Területek",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territorios meridional francese",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Teritori Kutub Selatan Prancis",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frönsku suðlægu landsvæðin",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Terre australi e antartiche francesi",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "仏領極南諸島",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ფრანგული სამხრეთის ტერიტორიები",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಫ್ರೆಂಚ್ ದಕ್ಷಿಣ ಪ್ರದೇಶಗಳು",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "프랑스령 남부와 남극 지역",
+          "lang": "ko"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ອານາເຂດທາງໃຕ້ຂອງຝລັ່ງເສດ",
+          "lang": "lo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Prancūzijos Pietų sritys",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franču dienvidu teritorijas",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Француски Јужни територии",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഫ്രഞ്ച് ദക്ഷിണ ഭൂപ്രദേശം",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ्रेंच दाक्षिणात्य प्रदेश",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Southern Territories",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territorji Franċiżi ta\u2019 Nofsinhar",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ပြင်သစ် တောင်ပိုင်း ပိုင်နက်များ",
+          "lang": "my"
+        },
+        {
+          "isPreferredName": true,
+          "name": "De franske sørterritorier",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ्रान्सेली दक्षिणी क्षेत्र",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franse Gebieden in de zuidelijke Indische Oceaan",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franske sørområde",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଫରାସୀ ଦକ୍ଷିଣ କ୍ଷେତ୍ର",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francuskie Terytoria Południowe",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territórios Franceses do Sul",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Territoris Franzos Meridiunals",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Teritoriile Australe și Antarctice Franceze",
+          "lang": "ro"
+        },
+        {
+          "name": "Французские Южные Территории",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francúzske južné územia",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francosko južno ozemlje",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Француске Јужне Територије",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franska Sydterritorierna",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Maeneo ya Kusini ya Ufaransa",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ஃப்ரென்ச் தெற்கு மாஹாணங்கள்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఫ్రెంచ్ దక్షిణ ప్రాంతాలు",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "เฟรนช์เซาเทิร์นเทร์ริทอรีส์",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፈረንሳይ ደቡባዊ ግዛቶች",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Potu fonua tonga fakafalanisē",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransız Güney Bölgeleri",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Французькі Південні Території",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "فرانسیسی جنوبی خطے",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Thuộc Địa Nam của Pháp",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "法属南部领土",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "e-French Southern Territories",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "French Southern Territories",
+      "fclName": "country, state, region,...",
+      "countryName": "French Southern Territories",
+      "fcodeName": "section of independent political entity",
+      "adminName1": ""
+    },
+    {
+      "bbox": {
+        "east": 179.9999,
+        "south": -89.9999,
+        "north": -60.515533,
+        "west": -179.9999,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Antarctica",
+      "astergdem": -9999,
+      "countryId": "6697173",
+      "fcl": "A",
+      "srtm3": -32768,
+      "countryCode": "AQ",
+      "lat": "-82.67628",
+      "fcode": "TERR",
+      "continentCode": "AN",
+      "adminCode1": "00",
+      "lng": "8.78906",
+      "geonameId": 6697173,
+      "toponymName": "Antarctica",
+      "population": 0,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "አንታርክቲካ",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "القطب الجنوبي",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "এন্টাৰ্টিকা",
+          "lang": "as"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктыка",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктика",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "এন্টার্কটিকা",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ལྷོ་རྩེའི་མཐའ་གླིང་།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antàrtida",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktida",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཨེན་ཊཱག་ཊི་ཀ",
+          "lang": "dz"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antartica nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ανταρκτική",
+          "lang": "el"
+        },
+        {
+          "name": "Antarctica",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarkto",
+          "lang": "eo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antártida",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antartika",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جنوبگان",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "fo"
+        },
+        {
+          "name": "Antarctique",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "An Antartaice",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antártida",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "એન્ટાર્કટિકા",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "אנטארקטיקה",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अंटार्कटिका",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktik",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktisz",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suðurskautslandið",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antartide",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "南極",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ანტარქტიკა",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктика",
+          "lang": "kk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Qalasersuaq Kujalleq",
+          "lang": "kl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಅಂಟಾರ್ಟಿಕಾ",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "남극 대륙",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ئانتارکتیکا",
+          "lang": "ku"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Antarctica",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктик",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "അന്\u200dറാര്\u200dട്ടിക്ക",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अंटार्क्टिका",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antartika",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "အန္တာတိက",
+          "lang": "my"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अन्टारतिका",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antartica",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଆର୍ଣ୍ଟକଟିକା",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktyka",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "انتارکتیکا",
+          "lang": "ps"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antártida",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "ro"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктида",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antárktis",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ඇන්ටාක්ටිකාව",
+          "lang": "si"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarctica",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктик",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktis",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antaktika",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "அண்டார்டிகா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "అంటార్కటికా",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "แอนตาร์กติกา",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "አንታርክቲካ",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻAnitātika",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Antarktika",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Антарктида",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "انٹارکٹیکا",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Nam Cực",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "南极洲",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Antarctica",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Antarctica",
+      "fclName": "country, state, region,...",
+      "countryName": "Antarctica",
+      "fcodeName": "territory",
+      "adminName1": ""
+    }
+  ]
+}

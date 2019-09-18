@@ -1,0 +1,8123 @@
+{
+  "totalResultsCount": 14,
+  "geonames": [
+    {
+      "bbox": {
+        "east": -53.637962552,
+        "south": -55.0576984539999,
+        "north": -21.777951173,
+        "west": -73.566302817,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Argentine Republic",
+      "astergdem": 183,
+      "countryId": "3865483",
+      "fcl": "A",
+      "srtm3": 189,
+      "countryCode": "AR",
+      "lat": "-34",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-64",
+      "geonameId": 3865483,
+      "toponymName": "Argentine Republic",
+      "population": 41343201,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Argentinië",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Agyɛntina",
+          "lang": "ak"
+        },
+        {
+          "name": "አርጀንቲና",
+          "lang": "am"
+        },
+        {
+          "name": "Archentina",
+          "lang": "an"
+        },
+        {
+          "name": "الأرجنتين",
+          "lang": "ar"
+        },
+        {
+          "name": "Arxentina",
+          "lang": "ast"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arqentina",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Аргенціна",
+          "lang": "be"
+        },
+        {
+          "name": "Аржентина",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arizantin",
+          "lang": "bm"
+        },
+        {
+          "name": "আর্জেন্টিনা",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཨར་ཇེན་ཊི་ན།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arcʼhantina",
+          "lang": "br"
+        },
+        {
+          "name": "Argentina",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentina",
+          "lang": "ca"
+        },
+        {
+          "name": "Argentina",
+          "lang": "cs"
+        },
+        {
+          "name": "Yr Ariannin",
+          "lang": "cy"
+        },
+        {
+          "name": "Argentina",
+          "lang": "da"
+        },
+        {
+          "name": "Argentinien",
+          "lang": "de"
+        },
+        {
+          "name": "ཨར་ཇེན་ཊི་ན",
+          "lang": "dz"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentina nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Αργεντινή",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Argentina",
+          "lang": "en"
+        },
+        {
+          "name": "Argentino",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Argentina",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentiina",
+          "lang": "et"
+        },
+        {
+          "name": "Argentina",
+          "lang": "eu"
+        },
+        {
+          "name": "آرژانتین",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arjantiin",
+          "lang": "ff"
+        },
+        {
+          "name": "Argentiina",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentina",
+          "lang": "fo"
+        },
+        {
+          "name": "Argentine",
+          "lang": "fr"
+        },
+        {
+          "name": "Argentena",
+          "lang": "frp"
+        },
+        {
+          "name": "Argjentine",
+          "lang": "fur"
+        },
+        {
+          "name": "An Airgintín",
+          "lang": "ga"
+        },
+        {
+          "name": "Argentina",
+          "lang": "gd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arxentina",
+          "lang": "gl"
+        },
+        {
+          "name": "Argentina",
+          "lang": "gn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "આર્જેન્ટીના",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arjantiniya",
+          "lang": "ha"
+        },
+        {
+          "name": "ארגנטינה",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अर्जेंटीना",
+          "lang": "hi"
+        },
+        {
+          "name": "Argentina",
+          "lang": "hr"
+        },
+        {
+          "name": "Ajantin",
+          "lang": "ht"
+        },
+        {
+          "name": "Argentína",
+          "lang": "hu"
+        },
+        {
+          "name": "Արգենտինա",
+          "lang": "hy"
+        },
+        {
+          "name": "Argentina",
+          "lang": "ia"
+        },
+        {
+          "name": "Argentina",
+          "lang": "id"
+        },
+        {
+          "name": "Argentina",
+          "lang": "ilo"
+        },
+        {
+          "name": "Arjentinia",
+          "lang": "io"
+        },
+        {
+          "name": "Argentína",
+          "lang": "is"
+        },
+        {
+          "name": "Argentina",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "アルゼンチン共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "getygu'e",
+          "lang": "jbo"
+        },
+        {
+          "name": "არგენტინა",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ajentina",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Аргентина",
+          "lang": "kk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentina",
+          "lang": "kl"
+        },
+        {
+          "name": "អាហ្សង់ទីន",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಅರ್ಜೆಂಟೈನಾ",
+          "lang": "kn"
+        },
+        {
+          "name": "아르헨티나",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ئارجەنتینا",
+          "lang": "ku"
+        },
+        {
+          "name": "Arghantina",
+          "lang": "kw"
+        },
+        {
+          "name": "Argentina",
+          "lang": "la"
+        },
+        {
+          "name": "Argentina",
+          "lang": "lad"
+        },
+        {
+          "name": "Argentinien",
+          "lang": "lb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arigentina",
+          "lang": "lg"
+        },
+        {
+          "name": "Argentinië",
+          "lang": "li"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Argentina",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arizantinɛ",
+          "lang": "ln"
+        },
+        {
+          "name": "ອາເຈນຕິນາ່",
+          "lang": "lo"
+        },
+        {
+          "name": "Argentina",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Alijantine",
+          "lang": "lu"
+        },
+        {
+          "name": "Argentīna",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arzantina",
+          "lang": "mg"
+        },
+        {
+          "name": "Аргентина",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "അര്\u200dജന്\u200dറീന",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अर्जेंटिना",
+          "lang": "mr"
+        },
+        {
+          "name": "Argentina",
+          "lang": "ms"
+        },
+        {
+          "name": "Arġentina",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "အာဂျင်တီးနား",
+          "lang": "my"
+        },
+        {
+          "name": "Argentina",
+          "lang": "na"
+        },
+        {
+          "name": "Arxentitlān",
+          "lang": "nah"
+        },
+        {
+          "name": "Argentina",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ajentina",
+          "lang": "nd"
+        },
+        {
+          "name": "Argentinien",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "अर्जेण्टिना",
+          "lang": "ne"
+        },
+        {
+          "name": "Argentinië",
+          "lang": "nl"
+        },
+        {
+          "name": "Argentina",
+          "lang": "nn"
+        },
+        {
+          "name": "Argentina",
+          "lang": "no"
+        },
+        {
+          "name": "Argentina",
+          "lang": "nov"
+        },
+        {
+          "name": "Argentina",
+          "lang": "oc"
+        },
+        {
+          "name": "Argentiinu",
+          "lang": "olo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଆର୍ଜେଣ୍ଟିନା",
+          "lang": "or"
+        },
+        {
+          "name": "Argentina",
+          "lang": "pam"
+        },
+        {
+          "name": "Artschenti",
+          "lang": "pdc"
+        },
+        {
+          "name": "Argentyna",
+          "lang": "pl"
+        },
+        {
+          "name": "Argentin-a",
+          "lang": "pms"
+        },
+        {
+          "name": "ارجنټاين",
+          "lang": "ps"
+        },
+        {
+          "name": "Argentina",
+          "lang": "pt"
+        },
+        {
+          "name": "Arhintina",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Argentinia",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arijantine",
+          "lang": "rn"
+        },
+        {
+          "name": "Argentina",
+          "lang": "ro"
+        },
+        {
+          "name": "Аргентина",
+          "lang": "ru"
+        },
+        {
+          "name": "अर्जन्टीना",
+          "lang": "sa"
+        },
+        {
+          "name": "Argintina",
+          "lang": "scn"
+        },
+        {
+          "name": "Argentina",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arzantîna",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ආර්ජෙන්ටිනාව",
+          "lang": "si"
+        },
+        {
+          "name": "Argentína",
+          "lang": "sk"
+        },
+        {
+          "name": "Argentina",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ajentina",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Arjantiin",
+          "lang": "so"
+        },
+        {
+          "name": "Argjentinë",
+          "lang": "sq"
+        },
+        {
+          "name": "Аргентина",
+          "lang": "sr"
+        },
+        {
+          "name": "Argentina",
+          "lang": "sv"
+        },
+        {
+          "name": "Ajentina",
+          "lang": "sw"
+        },
+        {
+          "name": "அர்ஜென்டினா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఆర్జెంటినా",
+          "lang": "te"
+        },
+        {
+          "name": "Arjentina",
+          "lang": "tet"
+        },
+        {
+          "name": "ประเทศอาร์เจนตินา",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "አርጀንቲና",
+          "lang": "ti"
+        },
+        {
+          "name": "Arhentina",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻAsenitina",
+          "lang": "to"
+        },
+        {
+          "name": "Arjantin",
+          "lang": "tr"
+        },
+        {
+          "name": "ئارگېنتىنا",
+          "lang": "ug"
+        },
+        {
+          "name": "Аргентина",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ارجنٹینا",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Á Căn Đình (Argentina)",
+          "lang": "vi"
+        },
+        {
+          "name": "Largäntän",
+          "lang": "vo"
+        },
+        {
+          "name": "ארגענטינע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Agentínà",
+          "lang": "yo"
+        },
+        {
+          "name": "阿根廷",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Argentina",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Argentina",
+      "fclName": "country, state, region,...",
+      "countryName": "Argentina",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -4,
+        "timeZoneId": "America/La_Paz",
+        "dstOffset": -4
+      },
+      "bbox": {
+        "east": -57.4538029999999,
+        "south": -22.89809,
+        "north": -9.66932299899997,
+        "west": -69.644939573,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Plurinational State of Bolivia",
+      "astergdem": 222,
+      "countryId": "3923057",
+      "fcl": "A",
+      "srtm3": 233,
+      "countryCode": "BO",
+      "lat": "-17",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-65",
+      "geonameId": 3923057,
+      "toponymName": "Plurinational State of Bolivia",
+      "population": 9947418,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Bolivia",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "ak"
+        },
+        {
+          "name": "ቦሊቪያ",
+          "lang": "am"
+        },
+        {
+          "name": "Bolibia",
+          "lang": "an"
+        },
+        {
+          "name": "بوليفيا",
+          "lang": "ar"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "ast"
+        },
+        {
+          "name": "Wuliwya",
+          "lang": "ay"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Boliviya",
+          "lang": "az"
+        },
+        {
+          "name": "Балівія",
+          "lang": "be"
+        },
+        {
+          "name": "Боливия",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivi",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "বোলিভিয়া",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "བོ་ལི་ཝིཡ།",
+          "lang": "bo"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "br"
+        },
+        {
+          "name": "Bolivija",
+          "lang": "bs"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Bolívia",
+          "lang": "ca"
+        },
+        {
+          "name": "Bolívie",
+          "lang": "cs"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "cy"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "da"
+        },
+        {
+          "name": "Bolivien",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Βολιβία",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Bolivia",
+          "lang": "en"
+        },
+        {
+          "name": "Bolivio",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "es"
+        },
+        {
+          "name": "Boliivia",
+          "lang": "et"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "بولیویا",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Boliwii",
+          "lang": "ff"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "fo"
+        },
+        {
+          "name": "Bolivie",
+          "lang": "fr"
+        },
+        {
+          "name": "Bolivie",
+          "lang": "frp"
+        },
+        {
+          "name": "An Bholaiv",
+          "lang": "ga"
+        },
+        {
+          "name": "Boilibhia",
+          "lang": "gd"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "બોલિવિયા",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolibiya",
+          "lang": "ha"
+        },
+        {
+          "name": "Bolivija",
+          "lang": "hbs"
+        },
+        {
+          "name": "בוליביה",
+          "lang": "he"
+        },
+        {
+          "name": "बोलीविया",
+          "lang": "hi"
+        },
+        {
+          "name": "Bolivija",
+          "lang": "hr"
+        },
+        {
+          "name": "Bolivi",
+          "lang": "ht"
+        },
+        {
+          "name": "Bolívia",
+          "lang": "hu"
+        },
+        {
+          "name": "Բոլիվիա",
+          "lang": "hy"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "ia"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "id"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "ilo"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "io"
+        },
+        {
+          "name": "Bólivía",
+          "lang": "is"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ボリビア共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "ბოლივია",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Боливия",
+          "lang": "kk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "kl"
+        },
+        {
+          "name": "បូលីវី",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಬಲ್ಗೇರಿಯಾ",
+          "lang": "kn"
+        },
+        {
+          "name": "볼리비아",
+          "lang": "ko"
+        },
+        {
+          "name": "बोलिविया",
+          "lang": "ks"
+        },
+        {
+          "isPreferredName": true,
+          "name": "بۆلیڤیا",
+          "lang": "ku"
+        },
+        {
+          "name": "Bolivi",
+          "lang": "kw"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "la"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Boliviya",
+          "lang": "lg"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "li"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "lij"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Bolivia",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivi",
+          "lang": "ln"
+        },
+        {
+          "name": "ໂບລິເວຍ",
+          "lang": "lo"
+        },
+        {
+          "name": "Bolivija",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Mbolivi",
+          "lang": "lu"
+        },
+        {
+          "name": "Bolīvija",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "mg"
+        },
+        {
+          "name": "Боливија",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ബൊളീവിയ",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "बोलिव्हिया",
+          "lang": "mr"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "ms"
+        },
+        {
+          "name": "Bolivja",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ဘိုလီးဘီးယား",
+          "lang": "my"
+        },
+        {
+          "name": "Boribiya",
+          "lang": "na"
+        },
+        {
+          "name": "Bolivtlān",
+          "lang": "nah"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bholiviya",
+          "lang": "nd"
+        },
+        {
+          "name": "Bolivien",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "बोलिभिया",
+          "lang": "ne"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "nl"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "nn"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "no"
+        },
+        {
+          "name": "Bolívia",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ବୋଲଭିଆ",
+          "lang": "or"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "pam"
+        },
+        {
+          "name": "Boliwia",
+          "lang": "pl"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "pms"
+        },
+        {
+          "name": "Bolívia",
+          "lang": "pt"
+        },
+        {
+          "name": "Puliwya",
+          "lang": "qu"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Boliviya",
+          "lang": "rn"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "ro"
+        },
+        {
+          "name": "Боливия",
+          "lang": "ru"
+        },
+        {
+          "name": "बोलिविया",
+          "lang": "sa"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "scn"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivïi",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "බොලීවියාව",
+          "lang": "si"
+        },
+        {
+          "name": "Bolívia",
+          "lang": "sk"
+        },
+        {
+          "name": "Bolivija",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bolivia",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Boliifiya",
+          "lang": "so"
+        },
+        {
+          "name": "Bolivi",
+          "lang": "sq"
+        },
+        {
+          "name": "Боливија",
+          "lang": "sr"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "sv"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "sw"
+        },
+        {
+          "name": "பொலிவியா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "బొలీవియా",
+          "lang": "te"
+        },
+        {
+          "name": "Bolívia",
+          "lang": "tet"
+        },
+        {
+          "name": "Боливия",
+          "lang": "tg"
+        },
+        {
+          "name": "ประเทศโบลิเวีย",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ቦሊቪያ",
+          "lang": "ti"
+        },
+        {
+          "name": "Bolivia",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Polīvia",
+          "lang": "to"
+        },
+        {
+          "name": "Bolivya",
+          "lang": "tr"
+        },
+        {
+          "name": "بولىۋىيە",
+          "lang": "ug"
+        },
+        {
+          "name": "Болівія",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "بولیویا",
+          "lang": "ur"
+        },
+        {
+          "name": "Boliviya",
+          "lang": "uz"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bô-li-vi-a (Bolivia)",
+          "lang": "vi"
+        },
+        {
+          "name": "Bolivän",
+          "lang": "vo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Bọ̀lífíyà",
+          "lang": "yo"
+        },
+        {
+          "name": "玻利維亞",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Bolivia",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Bolivia",
+      "fclName": "country, state, region,...",
+      "countryName": "Bolivia",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "bbox": {
+        "east": -28.839052,
+        "south": -33.750706,
+        "north": 5.264877,
+        "west": -73.985535,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Federative Republic of Brazil",
+      "astergdem": 269,
+      "countryId": "3469034",
+      "fcl": "A",
+      "srtm3": 258,
+      "countryCode": "BR",
+      "lat": "-10",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-55",
+      "geonameId": 3469034,
+      "toponymName": "Federative Republic of Brazil",
+      "population": 201103330,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Brazil",
+          "lang": "aa"
+        },
+        {
+          "name": "Brasilië",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazil",
+          "lang": "ak"
+        },
+        {
+          "name": "ብራዚል",
+          "lang": "am"
+        },
+        {
+          "name": "Brasil",
+          "lang": "an"
+        },
+        {
+          "name": "البرازيل",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ব্ৰাজিল",
+          "lang": "as"
+        },
+        {
+          "name": "Brasil",
+          "lang": "ast"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Braziliya",
+          "lang": "az"
+        },
+        {
+          "name": "Бразілія",
+          "lang": "be"
+        },
+        {
+          "name": "Бразилия",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Berezili",
+          "lang": "bm"
+        },
+        {
+          "name": "ব্রাজিল",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "བ་རཱ་ཛིལ།",
+          "lang": "bo"
+        },
+        {
+          "name": "Brazil",
+          "lang": "br"
+        },
+        {
+          "name": "Brazil",
+          "lang": "bs"
+        },
+        {
+          "name": "Brasil",
+          "lang": "ca"
+        },
+        {
+          "name": "Brasile",
+          "lang": "co"
+        },
+        {
+          "name": "Brazílie",
+          "lang": "cs"
+        },
+        {
+          "name": "Brasil",
+          "lang": "cy"
+        },
+        {
+          "name": "Brasilien",
+          "lang": "da"
+        },
+        {
+          "name": "Brasilien",
+          "lang": "de"
+        },
+        {
+          "name": "བཱརཱ་ཛིལ",
+          "lang": "dz"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazil nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Βραζιλία",
+          "lang": "el"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazil",
+          "lang": "en"
+        },
+        {
+          "name": "Brazilo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Brasil",
+          "lang": "es"
+        },
+        {
+          "name": "Brasiilia",
+          "lang": "et"
+        },
+        {
+          "name": "Brasil",
+          "lang": "eu"
+        },
+        {
+          "name": "برزیل",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Beresiil",
+          "lang": "ff"
+        },
+        {
+          "name": "Brasilia",
+          "lang": "fi"
+        },
+        {
+          "name": "Brasilia",
+          "lang": "fo"
+        },
+        {
+          "name": "Brésil",
+          "lang": "fr"
+        },
+        {
+          "name": "Brèsil",
+          "lang": "frp"
+        },
+        {
+          "name": "Brazylje",
+          "lang": "fy"
+        },
+        {
+          "name": "An Bhrasaíl",
+          "lang": "ga"
+        },
+        {
+          "name": "Breasail",
+          "lang": "gd"
+        },
+        {
+          "name": "Brasil",
+          "lang": "gl"
+        },
+        {
+          "name": "Brasil",
+          "lang": "gn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "બ્રાઝિલ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Birazil",
+          "lang": "ha"
+        },
+        {
+          "name": "Palakila",
+          "lang": "haw"
+        },
+        {
+          "name": "Brazil",
+          "lang": "hbs"
+        },
+        {
+          "name": "ברזיל",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ब्राज़िल",
+          "lang": "hi"
+        },
+        {
+          "name": "Brazil",
+          "lang": "hr"
+        },
+        {
+          "name": "Brezil",
+          "lang": "ht"
+        },
+        {
+          "name": "Brazília",
+          "lang": "hu"
+        },
+        {
+          "name": "Բրազիլիա",
+          "lang": "hy"
+        },
+        {
+          "name": "Brasil",
+          "lang": "ia"
+        },
+        {
+          "name": "Brasil",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ꀠꑭ",
+          "lang": "ii"
+        },
+        {
+          "name": "Brazil",
+          "lang": "ilo"
+        },
+        {
+          "name": "Brazilia",
+          "lang": "io"
+        },
+        {
+          "name": "Brasilía",
+          "lang": "is"
+        },
+        {
+          "name": "Brasile",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ブラジル連邦共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "razgu'e",
+          "lang": "jbo"
+        },
+        {
+          "name": "ბრაზილია",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazili",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Бразилия",
+          "lang": "kk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brasilien",
+          "lang": "kl"
+        },
+        {
+          "name": "ប្រេស៊ីល",
+          "lang": "km"
+        },
+        {
+          "name": "ಬ್ರೆಜಿಲ್",
+          "lang": "kn"
+        },
+        {
+          "name": "브라질",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "برازیل",
+          "lang": "ku"
+        },
+        {
+          "name": "Brasil",
+          "lang": "kw"
+        },
+        {
+          "name": "Brasilia",
+          "lang": "la"
+        },
+        {
+          "name": "Brasilien",
+          "lang": "lb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Buraziiri",
+          "lang": "lg"
+        },
+        {
+          "name": "Braziel",
+          "lang": "li"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Brazil",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brezílɛ",
+          "lang": "ln"
+        },
+        {
+          "name": "ບຼາຊິວ",
+          "lang": "lo"
+        },
+        {
+          "name": "Brazilija",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Mnulezile",
+          "lang": "lu"
+        },
+        {
+          "name": "Brazīlija",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brezila",
+          "lang": "mg"
+        },
+        {
+          "name": "Бразил",
+          "lang": "mk"
+        },
+        {
+          "name": "ബ്രസീല്\u200d",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Бразили",
+          "lang": "mn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ब्राझिल",
+          "lang": "mr"
+        },
+        {
+          "name": "Brazil",
+          "lang": "ms"
+        },
+        {
+          "name": "Brażil",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ဘရာဇီး",
+          "lang": "my"
+        },
+        {
+          "name": "Brazil",
+          "lang": "na"
+        },
+        {
+          "name": "Brasīl",
+          "lang": "nah"
+        },
+        {
+          "name": "Brasil",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazili",
+          "lang": "nd"
+        },
+        {
+          "name": "Brasilien",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ब्राजिल",
+          "lang": "ne"
+        },
+        {
+          "name": "Brazilië",
+          "lang": "nl"
+        },
+        {
+          "name": "Brasil",
+          "lang": "nn"
+        },
+        {
+          "name": "Brasil",
+          "lang": "no"
+        },
+        {
+          "name": "Brési",
+          "lang": "nrm"
+        },
+        {
+          "name": "Brasil",
+          "lang": "oc"
+        },
+        {
+          "name": "Braziilii",
+          "lang": "olo"
+        },
+        {
+          "name": "Brazil",
+          "lang": "om"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ବ୍ରାଜିଲ୍",
+          "lang": "or"
+        },
+        {
+          "name": "Brazil",
+          "lang": "pam"
+        },
+        {
+          "name": "Brazil",
+          "lang": "pap"
+        },
+        {
+          "name": "Brazylia",
+          "lang": "pl"
+        },
+        {
+          "name": "برازيل",
+          "lang": "ps"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brasil",
+          "lang": "pt"
+        },
+        {
+          "name": "Brasil",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brasila",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Burezili",
+          "lang": "rn"
+        },
+        {
+          "name": "Brazilia",
+          "lang": "ro"
+        },
+        {
+          "name": "Бразилия",
+          "lang": "ru"
+        },
+        {
+          "name": "Brasili",
+          "lang": "scn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brasil",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brezîli",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "බ්\u200dරසීලය",
+          "lang": "si"
+        },
+        {
+          "name": "Brazília",
+          "lang": "sk"
+        },
+        {
+          "name": "Brazilija",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Brazil",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Baraasiil",
+          "lang": "so"
+        },
+        {
+          "name": "Brazili",
+          "lang": "sq"
+        },
+        {
+          "name": "Браѕил",
+          "lang": "sr"
+        },
+        {
+          "name": "Brasilien",
+          "lang": "sv"
+        },
+        {
+          "name": "Brazil",
+          "lang": "sw"
+        },
+        {
+          "name": "பிரேஸில்",
+          "lang": "ta"
+        },
+        {
+          "name": "బ్రజిల్",
+          "lang": "te"
+        },
+        {
+          "name": "Brazíl",
+          "lang": "tet"
+        },
+        {
+          "name": "Бразилия",
+          "lang": "tg"
+        },
+        {
+          "name": "บราซิล",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ብራዚል",
+          "lang": "ti"
+        },
+        {
+          "name": "Brazil",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Palāsili",
+          "lang": "to"
+        },
+        {
+          "name": "Brezilya",
+          "lang": "tr"
+        },
+        {
+          "name": "برازىلىيە",
+          "lang": "ug"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Бразілія",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "برازیلی",
+          "lang": "ur"
+        },
+        {
+          "name": "Бразилия",
+          "lang": "uz"
+        },
+        {
+          "name": "Braxil",
+          "lang": "vec"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ba Tây (Bra-xin)",
+          "lang": "vi"
+        },
+        {
+          "name": "Brasilän",
+          "lang": "vo"
+        },
+        {
+          "name": "בראזיליע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Bàràsílì",
+          "lang": "yo"
+        },
+        {
+          "name": "巴西",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Brazil",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Brazil",
+      "fclName": "country, state, region,...",
+      "countryName": "Brazil",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "bbox": {
+        "east": -66.416152278,
+        "south": -55.9829702769999,
+        "north": -17.4977759459999,
+        "west": -109.449941591,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Chile",
+      "astergdem": 275,
+      "countryId": "3895114",
+      "fcl": "A",
+      "srtm3": 297,
+      "countryCode": "CL",
+      "lat": "-30",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-71",
+      "geonameId": 3895114,
+      "toponymName": "Republic of Chile",
+      "population": 16746491,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Chili",
+          "lang": "ace"
+        },
+        {
+          "name": "Chili",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kyili",
+          "lang": "ak"
+        },
+        {
+          "name": "ቺሊ",
+          "lang": "am"
+        },
+        {
+          "name": "Chile",
+          "lang": "an"
+        },
+        {
+          "name": "Cile",
+          "lang": "ang"
+        },
+        {
+          "name": "تشيلي",
+          "lang": "ar"
+        },
+        {
+          "name": "تشيلى",
+          "lang": "arz"
+        },
+        {
+          "name": "Chile",
+          "lang": "ast"
+        },
+        {
+          "name": "Chili",
+          "lang": "ay"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Çile",
+          "lang": "az"
+        },
+        {
+          "name": "Tsile",
+          "lang": "bcl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Чілі",
+          "lang": "be"
+        },
+        {
+          "name": "Чили",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sili",
+          "lang": "bm"
+        },
+        {
+          "name": "চিলি",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཅི་ལི་སྤྱི་མཐུན་རྒྱལ་ཁབ།",
+          "lang": "bo"
+        },
+        {
+          "name": "চিলি",
+          "lang": "bpy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chile",
+          "lang": "br"
+        },
+        {
+          "name": "Čile",
+          "lang": "bs"
+        },
+        {
+          "name": "Xile",
+          "lang": "ca"
+        },
+        {
+          "name": "Çile",
+          "lang": "crh"
+        },
+        {
+          "name": "Chile",
+          "lang": "cs"
+        },
+        {
+          "name": "Чили",
+          "lang": "cv"
+        },
+        {
+          "name": "Chile",
+          "lang": "cy"
+        },
+        {
+          "name": "Chile",
+          "lang": "da"
+        },
+        {
+          "name": "Chile",
+          "lang": "de"
+        },
+        {
+          "name": "Şili",
+          "lang": "diq"
+        },
+        {
+          "name": "Chilska",
+          "lang": "dsb"
+        },
+        {
+          "name": "ޗިލީ",
+          "lang": "dv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Tsile nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Χιλή",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Chile",
+          "lang": "en"
+        },
+        {
+          "name": "Ĉilio",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Chile",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Tiiili",
+          "lang": "et"
+        },
+        {
+          "name": "Txile",
+          "lang": "eu"
+        },
+        {
+          "name": "Chili",
+          "lang": "ext"
+        },
+        {
+          "name": "شیلی",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cilii",
+          "lang": "ff"
+        },
+        {
+          "name": "Chile",
+          "lang": "fi"
+        },
+        {
+          "name": "Kili",
+          "lang": "fo"
+        },
+        {
+          "name": "Chili",
+          "lang": "fr"
+        },
+        {
+          "name": "Ch·ili",
+          "lang": "frp"
+        },
+        {
+          "name": "Cile",
+          "lang": "fur"
+        },
+        {
+          "name": "Sily",
+          "lang": "fy"
+        },
+        {
+          "name": "An tSile",
+          "lang": "ga"
+        },
+        {
+          "name": "An t-Sile",
+          "lang": "gd"
+        },
+        {
+          "name": "Chile",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ચિલી",
+          "lang": "gu"
+        },
+        {
+          "name": "Yn Çhillee",
+          "lang": "gv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cayile",
+          "lang": "ha"
+        },
+        {
+          "name": "Chṳ-li",
+          "lang": "hak"
+        },
+        {
+          "name": "Čile",
+          "lang": "hbs"
+        },
+        {
+          "name": "צ׳ילה",
+          "lang": "he"
+        },
+        {
+          "name": "चिली",
+          "lang": "hi"
+        },
+        {
+          "name": "Čile",
+          "lang": "hr"
+        },
+        {
+          "name": "Chili",
+          "lang": "ht"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Csile",
+          "lang": "hu"
+        },
+        {
+          "name": "Չիլի",
+          "lang": "hy"
+        },
+        {
+          "name": "Chile",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cile",
+          "lang": "id"
+        },
+        {
+          "name": "Chile",
+          "lang": "ilo"
+        },
+        {
+          "name": "Chili",
+          "lang": "io"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chíle",
+          "lang": "is"
+        },
+        {
+          "name": "Cile",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "チリ共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "tciles",
+          "lang": "jbo"
+        },
+        {
+          "name": "Chili",
+          "lang": "jv"
+        },
+        {
+          "name": "ჩილი",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chile",
+          "lang": "ki"
+        },
+        {
+          "name": "Чили",
+          "lang": "kk"
+        },
+        {
+          "name": "ឈីលី",
+          "lang": "km"
+        },
+        {
+          "name": "ಚಿಲಿ",
+          "lang": "kn"
+        },
+        {
+          "name": "칠레",
+          "lang": "ko"
+        },
+        {
+          "name": "چلي",
+          "lang": "ks"
+        },
+        {
+          "name": "Shiile",
+          "lang": "ksh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "شیلی",
+          "lang": "ku"
+        },
+        {
+          "name": "Чили",
+          "lang": "kv"
+        },
+        {
+          "name": "Chile",
+          "lang": "kw"
+        },
+        {
+          "name": "Чили",
+          "lang": "ky"
+        },
+        {
+          "name": "Chilia",
+          "lang": "la"
+        },
+        {
+          "name": "Chile",
+          "lang": "lad"
+        },
+        {
+          "name": "Chile",
+          "lang": "lb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cile",
+          "lang": "lg"
+        },
+        {
+          "name": "Chili",
+          "lang": "li"
+        },
+        {
+          "name": "Cile",
+          "lang": "lij"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Chile",
+          "lang": "link"
+        },
+        {
+          "name": "Cile",
+          "lang": "lmo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Síli",
+          "lang": "ln"
+        },
+        {
+          "name": "ຊິສິ",
+          "lang": "lo"
+        },
+        {
+          "name": "Čilė",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Shili",
+          "lang": "lu"
+        },
+        {
+          "name": "Čīle",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Shili",
+          "lang": "mg"
+        },
+        {
+          "name": "Чили",
+          "lang": "mhr"
+        },
+        {
+          "name": "Чиле",
+          "lang": "mk"
+        },
+        {
+          "name": "ചിലി",
+          "lang": "ml"
+        },
+        {
+          "name": "Чили",
+          "lang": "mn"
+        },
+        {
+          "name": "चिली",
+          "lang": "mr"
+        },
+        {
+          "name": "Chile",
+          "lang": "ms"
+        },
+        {
+          "name": "Ċili",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ချီလီ",
+          "lang": "my"
+        },
+        {
+          "name": "شیلی",
+          "lang": "mzn"
+        },
+        {
+          "name": "Tsire",
+          "lang": "na"
+        },
+        {
+          "name": "Chile",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chile",
+          "lang": "nd"
+        },
+        {
+          "name": "Chile",
+          "lang": "nds"
+        },
+        {
+          "name": "चिली",
+          "lang": "ne"
+        },
+        {
+          "name": "Chili",
+          "lang": "nl"
+        },
+        {
+          "name": "Chile",
+          "lang": "nn"
+        },
+        {
+          "name": "Chile",
+          "lang": "no"
+        },
+        {
+          "name": "Chíilii",
+          "lang": "nv"
+        },
+        {
+          "name": "Chile",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଚିଲ୍ଲୀ",
+          "lang": "or"
+        },
+        {
+          "name": "Чили",
+          "lang": "os"
+        },
+        {
+          "name": "Chile",
+          "lang": "pam"
+        },
+        {
+          "name": "Chile",
+          "lang": "pl"
+        },
+        {
+          "name": "Cile",
+          "lang": "pms"
+        },
+        {
+          "name": "چېلي",
+          "lang": "ps"
+        },
+        {
+          "name": "Chile",
+          "lang": "pt"
+        },
+        {
+          "name": "Chili",
+          "lang": "qu"
+        },
+        {
+          "name": "Chile",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Shili",
+          "lang": "rn"
+        },
+        {
+          "name": "Chile",
+          "lang": "ro"
+        },
+        {
+          "name": "Чили",
+          "lang": "ru"
+        },
+        {
+          "name": "Shili",
+          "lang": "rw"
+        },
+        {
+          "name": "चिलि",
+          "lang": "sa"
+        },
+        {
+          "name": "Чили",
+          "lang": "sah"
+        },
+        {
+          "name": "Cile",
+          "lang": "sc"
+        },
+        {
+          "name": "Cili",
+          "lang": "scn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Čiile",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Shilïi",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "චිලී",
+          "lang": "si"
+        },
+        {
+          "name": "Čile",
+          "lang": "sk"
+        },
+        {
+          "name": "Čile",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chile",
+          "lang": "sn"
+        },
+        {
+          "name": "Jili",
+          "lang": "so"
+        },
+        {
+          "name": "Kili",
+          "lang": "sq"
+        },
+        {
+          "name": "Чиле",
+          "lang": "sr"
+        },
+        {
+          "name": "Cilé",
+          "lang": "su"
+        },
+        {
+          "name": "Chile",
+          "lang": "sv"
+        },
+        {
+          "name": "Chile",
+          "lang": "sw"
+        },
+        {
+          "name": "Czile",
+          "lang": "szl"
+        },
+        {
+          "name": "சிலி",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "చిలి",
+          "lang": "te"
+        },
+        {
+          "name": "Xile",
+          "lang": "tet"
+        },
+        {
+          "name": "Чиле",
+          "lang": "tg"
+        },
+        {
+          "name": "ชิลี",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ቺሊ",
+          "lang": "ti"
+        },
+        {
+          "name": "Tsile",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sili",
+          "lang": "to"
+        },
+        {
+          "name": "Şili",
+          "lang": "tr"
+        },
+        {
+          "name": "Чили",
+          "lang": "tt"
+        },
+        {
+          "name": "چىلى",
+          "lang": "ug"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Чілі",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "چلی",
+          "lang": "ur"
+        },
+        {
+          "name": "Chili",
+          "lang": "uz"
+        },
+        {
+          "name": "Ciłe",
+          "lang": "vec"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Chi-lê (Chile)",
+          "lang": "vi"
+        },
+        {
+          "name": "Chili",
+          "lang": "vls"
+        },
+        {
+          "name": "Cilän",
+          "lang": "vo"
+        },
+        {
+          "name": "Tchili",
+          "lang": "wa"
+        },
+        {
+          "name": "Sili",
+          "lang": "wo"
+        },
+        {
+          "name": "智利",
+          "lang": "wuu"
+        },
+        {
+          "name": "Чилмудин Орн",
+          "lang": "xal"
+        },
+        {
+          "name": "טשילע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède ṣílè",
+          "lang": "yo"
+        },
+        {
+          "name": "Chili",
+          "lang": "zea"
+        },
+        {
+          "name": "智利",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Chile",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Chile",
+      "fclName": "country, state, region,...",
+      "countryName": "Chile",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -5,
+        "timeZoneId": "America/Bogota",
+        "dstOffset": -5
+      },
+      "bbox": {
+        "east": -66.8472153989999,
+        "south": -4.22839224299997,
+        "north": 13.394789727,
+        "west": -81.735775648,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Colombia",
+      "astergdem": 219,
+      "countryId": "3686110",
+      "fcl": "A",
+      "srtm3": 223,
+      "countryCode": "CO",
+      "lat": "4",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-73.25",
+      "geonameId": 3686110,
+      "toponymName": "Republic of Colombia",
+      "population": 47790000,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Kolombië",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia",
+          "lang": "ak"
+        },
+        {
+          "name": "ኮሎምቢያ",
+          "lang": "am"
+        },
+        {
+          "name": "Colombia",
+          "lang": "an"
+        },
+        {
+          "name": "كولومبيا",
+          "lang": "ar"
+        },
+        {
+          "name": "Colombia",
+          "lang": "ast"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolumbiya",
+          "lang": "az"
+        },
+        {
+          "name": "Калумбія",
+          "lang": "be"
+        },
+        {
+          "name": "Колумбия",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombi",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "কোলোম্বিয়া",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཀོ་ལོམ་བི་ཡ།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia",
+          "lang": "br"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "bs"
+        },
+        {
+          "name": "Colòmbia",
+          "lang": "ca"
+        },
+        {
+          "name": "Kolumbie",
+          "lang": "cs"
+        },
+        {
+          "name": "Colombia",
+          "lang": "cy"
+        },
+        {
+          "name": "Colombia",
+          "lang": "da"
+        },
+        {
+          "name": "Kolumbien",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Κολομβία",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Colombia",
+          "lang": "en"
+        },
+        {
+          "name": "Kolombio",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Colombia",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Columbia",
+          "lang": "et"
+        },
+        {
+          "name": "Kolonbia",
+          "lang": "eu"
+        },
+        {
+          "name": "کلمبیا",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombiya",
+          "lang": "ff"
+        },
+        {
+          "name": "Kolumbia",
+          "lang": "fi"
+        },
+        {
+          "name": "Kolombia",
+          "lang": "fo"
+        },
+        {
+          "name": "Colombie",
+          "lang": "fr"
+        },
+        {
+          "name": "Colombie",
+          "lang": "frp"
+        },
+        {
+          "name": "An Cholóim",
+          "lang": "ga"
+        },
+        {
+          "name": "Coloimbia",
+          "lang": "gd"
+        },
+        {
+          "name": "Colombia",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "કોલમ્બિયા",
+          "lang": "gu"
+        },
+        {
+          "name": "Yn Cholombey",
+          "lang": "gv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolambiya",
+          "lang": "ha"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "hbs"
+        },
+        {
+          "name": "קולומביה",
+          "lang": "he"
+        },
+        {
+          "name": "कोलम्बिया",
+          "lang": "hi"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "hr"
+        },
+        {
+          "name": "Kolonbi",
+          "lang": "ht"
+        },
+        {
+          "name": "Kolumbia",
+          "lang": "hu"
+        },
+        {
+          "name": "Կոլումբիա",
+          "lang": "hy"
+        },
+        {
+          "name": "Colombia",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolumbia",
+          "lang": "id"
+        },
+        {
+          "name": "Colombia",
+          "lang": "ilo"
+        },
+        {
+          "name": "Kolumbia",
+          "lang": "io"
+        },
+        {
+          "name": "Kólumbía",
+          "lang": "is"
+        },
+        {
+          "name": "Colombia",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "コロンビア共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "კოლუმბია",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Колумбия",
+          "lang": "kk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Colombia",
+          "lang": "kl"
+        },
+        {
+          "name": "កូឡុំប៊ី",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಕೊಲಂಬಿಯಾ",
+          "lang": "kn"
+        },
+        {
+          "name": "콜롬비아",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "کۆلۆمبیا",
+          "lang": "ku"
+        },
+        {
+          "name": "Kolombi",
+          "lang": "kw"
+        },
+        {
+          "name": "Columbia",
+          "lang": "la"
+        },
+        {
+          "name": "Kolombia",
+          "lang": "lad"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombya",
+          "lang": "lg"
+        },
+        {
+          "name": "Colombia",
+          "lang": "li"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Colombia",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombi",
+          "lang": "ln"
+        },
+        {
+          "name": "ໂຄລຳເບຍ",
+          "lang": "lo"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombi",
+          "lang": "lu"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kôlômbia",
+          "lang": "mg"
+        },
+        {
+          "name": "Колумбија",
+          "lang": "mk"
+        },
+        {
+          "name": "കൊളംബിയ",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "कोलम्बिया",
+          "lang": "mr"
+        },
+        {
+          "name": "Colombia",
+          "lang": "ms"
+        },
+        {
+          "name": "Kolumbja",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ကိုလံဘီယာ",
+          "lang": "my"
+        },
+        {
+          "name": "Korombiya",
+          "lang": "na"
+        },
+        {
+          "name": "Colombia",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kholombiya",
+          "lang": "nd"
+        },
+        {
+          "name": "Kolumbien",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "कोलोम्बिया",
+          "lang": "ne"
+        },
+        {
+          "name": "Colombia",
+          "lang": "nl"
+        },
+        {
+          "name": "Colombia",
+          "lang": "nn"
+        },
+        {
+          "name": "Colombia",
+          "lang": "no"
+        },
+        {
+          "name": "Colómbia",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "କୋଲମ୍ବିଆ",
+          "lang": "or"
+        },
+        {
+          "name": "Colombia",
+          "lang": "pam"
+        },
+        {
+          "name": "Kolumbia",
+          "lang": "pl"
+        },
+        {
+          "name": "کولمبيا",
+          "lang": "ps"
+        },
+        {
+          "name": "Colômbia",
+          "lang": "pt"
+        },
+        {
+          "name": "Kulumbya",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Columbia",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombiya",
+          "lang": "rn"
+        },
+        {
+          "name": "Columbia",
+          "lang": "ro"
+        },
+        {
+          "name": "Колумбия",
+          "lang": "ru"
+        },
+        {
+          "name": "कोलोम्बिया",
+          "lang": "sa"
+        },
+        {
+          "name": "Colombia",
+          "lang": "scn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombïi",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "කොළොම්බියාව",
+          "lang": "si"
+        },
+        {
+          "name": "Kolumbia",
+          "lang": "sk"
+        },
+        {
+          "name": "Kolumbija",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombia",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolombiya",
+          "lang": "so"
+        },
+        {
+          "name": "Kolumbi",
+          "lang": "sq"
+        },
+        {
+          "name": "Колумбија",
+          "lang": "sr"
+        },
+        {
+          "name": "Colombia",
+          "lang": "sv"
+        },
+        {
+          "name": "Kolombia",
+          "lang": "sw"
+        },
+        {
+          "name": "கொலம்பியா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "కొలంబియా",
+          "lang": "te"
+        },
+        {
+          "name": "Kolómbia",
+          "lang": "tet"
+        },
+        {
+          "name": "Кулумбия",
+          "lang": "tg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "โคลอมเบีย",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ኮሎምቢያ",
+          "lang": "ti"
+        },
+        {
+          "name": "Colombia",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kolomipia",
+          "lang": "to"
+        },
+        {
+          "name": "Kolombiya",
+          "lang": "tr"
+        },
+        {
+          "name": "كولومبىيە",
+          "lang": "ug"
+        },
+        {
+          "name": "Колумбія",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "کولمبیا",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Cô-lôm-bi-a (Colombia)",
+          "lang": "vi"
+        },
+        {
+          "name": "Kolumbän",
+          "lang": "vo"
+        },
+        {
+          "name": "קאלאמביע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Kòlómíbìa",
+          "lang": "yo"
+        },
+        {
+          "name": "哥伦比亚共和国",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Colombia",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Colombia",
+      "fclName": "country, state, region,...",
+      "countryName": "Colombia",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "bbox": {
+        "east": -75.1871465547501,
+        "south": -5.01615732302488,
+        "north": 1.68183460350099,
+        "west": -92.0089663239157,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Ecuador",
+      "astergdem": 3069,
+      "countryId": "3658394",
+      "fcl": "A",
+      "srtm3": 3074,
+      "countryCode": "EC",
+      "lat": "-1.25",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-78.25",
+      "geonameId": 3658394,
+      "toponymName": "Republic of Ecuador",
+      "population": 14790608,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ikuwadɔ",
+          "lang": "ak"
+        },
+        {
+          "name": "ኢኳዶር",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "الاكوادور",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekvador",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Эквадор",
+          "lang": "be"
+        },
+        {
+          "name": "Еквадор",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwatɔr",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ইকুয়াডর",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཨི་ཁྭ་ཌོར།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekvador",
+          "lang": "bs"
+        },
+        {
+          "name": "Equador",
+          "lang": "ca"
+        },
+        {
+          "name": "Ekvádor",
+          "lang": "cs"
+        },
+        {
+          "name": "Ecwador",
+          "lang": "cy"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "da"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekuadɔ nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Εκουαδόρ",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Ecuador",
+          "lang": "en"
+        },
+        {
+          "name": "Ekvadoro",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "es"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "et"
+        },
+        {
+          "name": "Ekuador",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "اکوادور",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekuwatoor",
+          "lang": "ff"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "fi"
+        },
+        {
+          "name": "Ekvador",
+          "lang": "fo"
+        },
+        {
+          "name": "Équateur",
+          "lang": "fr"
+        },
+        {
+          "name": "Eacuadór",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "એક્વાડોર",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwador",
+          "lang": "ha"
+        },
+        {
+          "isPreferredName": true,
+          "name": "אקוודור",
+          "lang": "he"
+        },
+        {
+          "name": "इक्वाडोर",
+          "lang": "hi"
+        },
+        {
+          "name": "Ekvador",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekvádor",
+          "lang": "hu"
+        },
+        {
+          "name": "Էկվադոր",
+          "lang": "hy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "ia"
+        },
+        {
+          "name": "Ekuador",
+          "lang": "id"
+        },
+        {
+          "name": "Ekvador",
+          "lang": "is"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "エクアドル共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "ეკვადორი",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwado",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "kl"
+        },
+        {
+          "name": "អេក្វាឌ័រ",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಈಕ್ವೆಡಾರ್",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "에콰도르",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ئیکوادۆر",
+          "lang": "ku"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwado",
+          "lang": "lg"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Ecuador",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwatɛ́lɛ",
+          "lang": "ln"
+        },
+        {
+          "name": "ເອກວາດໍ",
+          "lang": "lo"
+        },
+        {
+          "name": "Ekvadoras",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwatele",
+          "lang": "lu"
+        },
+        {
+          "name": "Ekvadora",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekoatera",
+          "lang": "mg"
+        },
+        {
+          "name": "Еквадор",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഇക്വഡോര്\u200d",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "इक्वाडोर",
+          "lang": "mr"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "ms"
+        },
+        {
+          "name": "Ekwador",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "အီကွေဒေါ",
+          "lang": "my"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "nd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "इक्वडेर",
+          "lang": "ne"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "nl"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Eqüator",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଇକ୍ୱାଡୋର୍",
+          "lang": "or"
+        },
+        {
+          "name": "Ekwador",
+          "lang": "pl"
+        },
+        {
+          "name": "Equador",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwateri",
+          "lang": "rn"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "ro"
+        },
+        {
+          "name": "Эквадор",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekuatëre",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ඉක්වදෝරය",
+          "lang": "si"
+        },
+        {
+          "name": "Ekvádor",
+          "lang": "sk"
+        },
+        {
+          "name": "Ekvador",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ecuador",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ikuwadoor",
+          "lang": "so"
+        },
+        {
+          "name": "Ekuator",
+          "lang": "sq"
+        },
+        {
+          "name": "Еквадор",
+          "lang": "sr"
+        },
+        {
+          "name": "Ecuador",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekwado",
+          "lang": "sw"
+        },
+        {
+          "name": "ஈக்வடார்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఈక్వడోర్",
+          "lang": "te"
+        },
+        {
+          "name": "เอกวาดอร์",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ኢኳዶር",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻEkuetoa",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ekvador",
+          "lang": "tr"
+        },
+        {
+          "name": "Еквадор",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ایکواڈور",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ê-qu-a-đo (Ecuador)",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Ekuádò",
+          "lang": "yo"
+        },
+        {
+          "name": "厄瓜多尔",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Ecuador",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Ecuador",
+      "fclName": "country, state, region,...",
+      "countryName": "Ecuador",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -4,
+        "timeZoneId": "America/Guyana",
+        "dstOffset": -4
+      },
+      "bbox": {
+        "east": -56.480251,
+        "south": 1.17508,
+        "north": 8.557567,
+        "west": -61.384762,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Co-operative Republic of Guyana",
+      "astergdem": 167,
+      "countryId": "3378535",
+      "fcl": "A",
+      "srtm3": 157,
+      "countryCode": "GY",
+      "lat": "5",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-59",
+      "geonameId": 3378535,
+      "toponymName": "Co-operative Republic of Guyana",
+      "population": 748486,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gayana",
+          "lang": "ak"
+        },
+        {
+          "name": "ጉያና",
+          "lang": "am"
+        },
+        {
+          "name": "Guyana",
+          "lang": "an"
+        },
+        {
+          "name": "غوايانا",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Quyana",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Гаяна",
+          "lang": "be"
+        },
+        {
+          "name": "Гвиана",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwiyana",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "গিয়ানা",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "གྷུ་ཡཱ་ན།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "br"
+        },
+        {
+          "name": "Gvajana",
+          "lang": "bs"
+        },
+        {
+          "name": "Guyana",
+          "lang": "ca"
+        },
+        {
+          "name": "Guyana",
+          "lang": "cs"
+        },
+        {
+          "name": "Guyana",
+          "lang": "cy"
+        },
+        {
+          "name": "Guyana",
+          "lang": "da"
+        },
+        {
+          "name": "Guyana",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyanadu",
+          "lang": "ee"
+        },
+        {
+          "name": "Γουιάνα",
+          "lang": "el"
+        },
+        {
+          "name": "Guyana",
+          "lang": "en"
+        },
+        {
+          "name": "Gujano",
+          "lang": "eo"
+        },
+        {
+          "name": "Guyana",
+          "lang": "es"
+        },
+        {
+          "name": "Guyana",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "eu"
+        },
+        {
+          "name": "گویان",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giyaan",
+          "lang": "ff"
+        },
+        {
+          "name": "Guyana",
+          "lang": "fi"
+        },
+        {
+          "name": "Gujana",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "name": "Guyana",
+          "lang": "fr"
+        },
+        {
+          "name": "An Ghuáin",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Güiana",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ગયાના",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "ha"
+        },
+        {
+          "name": "גיאנה",
+          "lang": "he"
+        },
+        {
+          "name": "गुयाना",
+          "lang": "hi"
+        },
+        {
+          "name": "Gvajana",
+          "lang": "hr"
+        },
+        {
+          "name": "Giyàn",
+          "lang": "ht"
+        },
+        {
+          "name": "Guyana",
+          "lang": "hu"
+        },
+        {
+          "name": "Գայանա",
+          "lang": "hy"
+        },
+        {
+          "name": "Guyana",
+          "lang": "id"
+        },
+        {
+          "name": "Guyana",
+          "lang": "io"
+        },
+        {
+          "name": "Gvæjana",
+          "lang": "is"
+        },
+        {
+          "name": "Guyana",
+          "lang": "it"
+        },
+        {
+          "name": "ガイアナ",
+          "lang": "ja"
+        },
+        {
+          "name": "გაიანა",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "kl"
+        },
+        {
+          "name": "ហ្គីយ៉ាណា",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಗಯಾನಾ",
+          "lang": "kn"
+        },
+        {
+          "name": "가이아나",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "گویانا",
+          "lang": "ku"
+        },
+        {
+          "name": "Gwayana",
+          "lang": "kw"
+        },
+        {
+          "name": "Guiana",
+          "lang": "la"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gayana",
+          "lang": "lg"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Guyana",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giyane",
+          "lang": "ln"
+        },
+        {
+          "name": "ກູຢານາ",
+          "lang": "lo"
+        },
+        {
+          "name": "Gajana",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ngiyane",
+          "lang": "lu"
+        },
+        {
+          "name": "Gajāna",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "mg"
+        },
+        {
+          "name": "Гвајана",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഗയാന",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "गयाना",
+          "lang": "mr"
+        },
+        {
+          "name": "Guyana",
+          "lang": "ms"
+        },
+        {
+          "name": "Gujana",
+          "lang": "mt"
+        },
+        {
+          "name": "Guyana",
+          "lang": "na"
+        },
+        {
+          "name": "Guyana",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "nd"
+        },
+        {
+          "name": "Guyana",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "गुयाना",
+          "lang": "ne"
+        },
+        {
+          "name": "Guyana",
+          "lang": "nl"
+        },
+        {
+          "name": "Guyana",
+          "lang": "nn"
+        },
+        {
+          "name": "Guyana",
+          "lang": "no"
+        },
+        {
+          "name": "Guyana",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଗୁଇନା",
+          "lang": "or"
+        },
+        {
+          "name": "Guyana",
+          "lang": "pam"
+        },
+        {
+          "name": "Gujana",
+          "lang": "pl"
+        },
+        {
+          "name": "ګيانا",
+          "lang": "ps"
+        },
+        {
+          "name": "Guiana",
+          "lang": "pt"
+        },
+        {
+          "name": "Wayana",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyane",
+          "lang": "rn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guiana",
+          "lang": "ro"
+        },
+        {
+          "name": "Гайана",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gayâna",
+          "lang": "sg"
+        },
+        {
+          "name": "Guyana",
+          "lang": "sk"
+        },
+        {
+          "name": "Gvajana",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana",
+          "lang": "so"
+        },
+        {
+          "name": "Guiana",
+          "lang": "sq"
+        },
+        {
+          "name": "Гвајана",
+          "lang": "sr"
+        },
+        {
+          "name": "Guyana",
+          "lang": "sv"
+        },
+        {
+          "name": "Guyana",
+          "lang": "sw"
+        },
+        {
+          "name": "கயானா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "గయానా",
+          "lang": "te"
+        },
+        {
+          "name": "Giana",
+          "lang": "tet"
+        },
+        {
+          "isPreferredName": true,
+          "name": "กายอานา",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ጉያና",
+          "lang": "ti"
+        },
+        {
+          "name": "Guyana",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kuiana",
+          "lang": "to"
+        },
+        {
+          "name": "Guyana",
+          "lang": "tr"
+        },
+        {
+          "name": "گۋىئانا",
+          "lang": "ug"
+        },
+        {
+          "name": "Гайана",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "گیانا",
+          "lang": "ur"
+        },
+        {
+          "name": "Guyana",
+          "lang": "vi"
+        },
+        {
+          "name": "Gvayän",
+          "lang": "vo"
+        },
+        {
+          "name": "גויאנע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Guyana",
+          "lang": "yo"
+        },
+        {
+          "name": "圭亚那",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Guyana",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Guyana",
+      "fclName": "country, state, region,...",
+      "countryName": "Guyana",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -3,
+        "timeZoneId": "America/Asuncion",
+        "dstOffset": -4
+      },
+      "bbox": {
+        "east": -54.2589239104835,
+        "south": -27.5918335646318,
+        "north": -19.2896000004762,
+        "west": -62.6446174378624,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Paraguay",
+      "astergdem": 85,
+      "countryId": "3437598",
+      "fcl": "A",
+      "srtm3": 83,
+      "countryCode": "PY",
+      "lat": "-23.33333",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-58",
+      "geonameId": 3437598,
+      "toponymName": "Republic of Paraguay",
+      "population": 6375830,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Paraguay",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "ak"
+        },
+        {
+          "name": "ፓራጓይ",
+          "lang": "am"
+        },
+        {
+          "name": "Paraguai",
+          "lang": "an"
+        },
+        {
+          "isPreferredName": true,
+          "name": "باراجواي",
+          "lang": "ar"
+        },
+        {
+          "name": "Paraqvay",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Парагвай",
+          "lang": "be"
+        },
+        {
+          "name": "Парагвай",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguwayi",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "পারাগুয়ে",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "པཱ་ར་གེ།",
+          "lang": "bo"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "br"
+        },
+        {
+          "name": "Paragvaj",
+          "lang": "bs"
+        },
+        {
+          "name": "Paraguai",
+          "lang": "ca"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "cs"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "cy"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "da"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragua nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Παραγουάη",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Paraguay",
+          "lang": "en"
+        },
+        {
+          "name": "Paragvajo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "es"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "پاراگویه",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguwaay",
+          "lang": "ff"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "fi"
+        },
+        {
+          "name": "Paraguei",
+          "lang": "fo"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "fr"
+        },
+        {
+          "name": "Paragoayi",
+          "lang": "frp"
+        },
+        {
+          "name": "Paragua",
+          "lang": "ga"
+        },
+        {
+          "name": "Paraguaidh",
+          "lang": "gd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguai",
+          "lang": "gl"
+        },
+        {
+          "name": "Paraguái",
+          "lang": "gn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "પેરાગ્વે",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragai",
+          "lang": "ha"
+        },
+        {
+          "name": "Paragvaj",
+          "lang": "hbs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "פרגואי",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "पॅराग्वे",
+          "lang": "hi"
+        },
+        {
+          "name": "Paragvaj",
+          "lang": "hr"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "hu"
+        },
+        {
+          "name": "Պարագվայ",
+          "lang": "hy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "ia"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "id"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "ilo"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "io"
+        },
+        {
+          "name": "Paragvæ",
+          "lang": "is"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "パラグアイ共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "პარაგვაი",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragwai",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "kl"
+        },
+        {
+          "name": "ប៉ារ៉ាហ្គាយ",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಪರಾಗ್ವೇ",
+          "lang": "kn"
+        },
+        {
+          "name": "파라과이",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "پاراگوای",
+          "lang": "ku"
+        },
+        {
+          "name": "Paragway",
+          "lang": "kw"
+        },
+        {
+          "name": "Paraquaria",
+          "lang": "la"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragwayi",
+          "lang": "lg"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "lij"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Paraguay",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Palagwei",
+          "lang": "ln"
+        },
+        {
+          "name": "ປາລາກວຍ",
+          "lang": "lo"
+        },
+        {
+          "name": "Paragvajus",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Palagwei",
+          "lang": "lu"
+        },
+        {
+          "name": "Paragvaja",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragoay",
+          "lang": "mg"
+        },
+        {
+          "name": "Парагвај",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "പരാഗ്വേ",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "पराग्वे",
+          "lang": "mr"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "ms"
+        },
+        {
+          "name": "Paragwaj",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ပါရာဂွေး",
+          "lang": "my"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "nd"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "प्यारागुये",
+          "lang": "ne"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "nl"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "nn"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "no"
+        },
+        {
+          "name": "Paraguai",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ପାରାଗୁଏ",
+          "lang": "or"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "pam"
+        },
+        {
+          "name": "Paragwaj",
+          "lang": "pl"
+        },
+        {
+          "name": "Paraguai",
+          "lang": "pt"
+        },
+        {
+          "name": "Parawayi",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguai",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paragwe",
+          "lang": "rn"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "ro"
+        },
+        {
+          "name": "Парагвай",
+          "lang": "ru"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguëe",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "පැරගුවේ",
+          "lang": "si"
+        },
+        {
+          "name": "Paraguaj",
+          "lang": "sk"
+        },
+        {
+          "name": "Paragvaj",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Paraguay",
+          "lang": "so"
+        },
+        {
+          "name": "Paraguaj",
+          "lang": "sq"
+        },
+        {
+          "name": "Парагвај",
+          "lang": "sr"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "sv"
+        },
+        {
+          "name": "Paragwai",
+          "lang": "sw"
+        },
+        {
+          "name": "பரகுவை",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "పెరగువే",
+          "lang": "te"
+        },
+        {
+          "name": "Paraguai",
+          "lang": "tet"
+        },
+        {
+          "name": "ปารากวัย",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ፓራጓይ",
+          "lang": "ti"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Palakuei",
+          "lang": "to"
+        },
+        {
+          "name": "Paraguay",
+          "lang": "tr"
+        },
+        {
+          "name": "پاراگۋاي",
+          "lang": "ug"
+        },
+        {
+          "name": "Парагвай",
+          "lang": "uk"
+        },
+        {
+          "name": "پیراگوئے",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pa-ra-goay (Paraguay)",
+          "lang": "vi"
+        },
+        {
+          "name": "Paragvän",
+          "lang": "vo"
+        },
+        {
+          "name": "פאראגוויי",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Paraguye",
+          "lang": "yo"
+        },
+        {
+          "name": "巴拉圭",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Paraguay",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Paraguay",
+      "fclName": "country, state, region,...",
+      "countryName": "Paraguay",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -5,
+        "timeZoneId": "America/Lima",
+        "dstOffset": -5
+      },
+      "bbox": {
+        "east": -68.6522791042853,
+        "south": -18.3509277356587,
+        "north": -0.0386059686681167,
+        "west": -81.3281953622301,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Peru",
+      "astergdem": 319,
+      "countryId": "3932488",
+      "fcl": "A",
+      "srtm3": 306,
+      "countryCode": "PE",
+      "lat": "-10",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-75.25",
+      "geonameId": 3932488,
+      "toponymName": "Republic of Peru",
+      "population": 29907003,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Peru",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "ak"
+        },
+        {
+          "name": "ፔሩ",
+          "lang": "am"
+        },
+        {
+          "name": "Perú",
+          "lang": "an"
+        },
+        {
+          "name": "بيرو",
+          "lang": "ar"
+        },
+        {
+          "name": "Perú",
+          "lang": "ast"
+        },
+        {
+          "name": "Piruw",
+          "lang": "ay"
+        },
+        {
+          "name": "Peru",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Перу",
+          "lang": "be"
+        },
+        {
+          "name": "Перу",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "bm"
+        },
+        {
+          "name": "পেরু",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "པེ་རུ།",
+          "lang": "bo"
+        },
+        {
+          "name": "Perou",
+          "lang": "br"
+        },
+        {
+          "name": "Peru",
+          "lang": "bs"
+        },
+        {
+          "name": "Perú",
+          "lang": "ca"
+        },
+        {
+          "name": "Perù",
+          "lang": "co"
+        },
+        {
+          "name": "Peru",
+          "lang": "cs"
+        },
+        {
+          "name": "Перу",
+          "lang": "cv"
+        },
+        {
+          "name": "Perw",
+          "lang": "cy"
+        },
+        {
+          "name": "Peru",
+          "lang": "da"
+        },
+        {
+          "name": "Peru",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Περού",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Peru",
+          "lang": "en"
+        },
+        {
+          "name": "Peruo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Perú",
+          "lang": "es"
+        },
+        {
+          "name": "Peruu",
+          "lang": "et"
+        },
+        {
+          "name": "Peru",
+          "lang": "eu"
+        },
+        {
+          "name": "پرو",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "ff"
+        },
+        {
+          "name": "Peru",
+          "lang": "fi"
+        },
+        {
+          "name": "Perú",
+          "lang": "fo"
+        },
+        {
+          "name": "Pérou",
+          "lang": "fr"
+        },
+        {
+          "name": "Pèrou",
+          "lang": "frp"
+        },
+        {
+          "name": "Peiriú",
+          "lang": "ga"
+        },
+        {
+          "name": "Pearù",
+          "lang": "gd"
+        },
+        {
+          "name": "Perú",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "પેરુ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "ha"
+        },
+        {
+          "name": "Peru",
+          "lang": "hbs"
+        },
+        {
+          "name": "פרו",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "पेरु",
+          "lang": "hi"
+        },
+        {
+          "name": "Peru",
+          "lang": "hr"
+        },
+        {
+          "name": "Peru",
+          "lang": "hu"
+        },
+        {
+          "name": "Պերու",
+          "lang": "hy"
+        },
+        {
+          "name": "Peru",
+          "lang": "ia"
+        },
+        {
+          "name": "Peru",
+          "lang": "id"
+        },
+        {
+          "name": "Peru",
+          "lang": "ilo"
+        },
+        {
+          "name": "Peru",
+          "lang": "io"
+        },
+        {
+          "name": "Perú",
+          "lang": "is"
+        },
+        {
+          "name": "Perù",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ペルー共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "პერუ",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "kl"
+        },
+        {
+          "name": "ប៉េរូ",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಪೆರು",
+          "lang": "kn"
+        },
+        {
+          "name": "페루",
+          "lang": "ko"
+        },
+        {
+          "name": "Pēru",
+          "lang": "ks"
+        },
+        {
+          "isPreferredName": true,
+          "name": "پیروو",
+          "lang": "ku"
+        },
+        {
+          "name": "Perou",
+          "lang": "kw"
+        },
+        {
+          "name": "Peruvia",
+          "lang": "la"
+        },
+        {
+          "name": "Peru",
+          "lang": "lb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "lg"
+        },
+        {
+          "name": "Perù",
+          "lang": "lij"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Peru",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Péru",
+          "lang": "ln"
+        },
+        {
+          "name": "ເປລູ",
+          "lang": "lo"
+        },
+        {
+          "name": "Peru",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "lu"
+        },
+        {
+          "name": "Peru",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peroa",
+          "lang": "mg"
+        },
+        {
+          "name": "Перу",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "പെറു",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "पेरू",
+          "lang": "mr"
+        },
+        {
+          "name": "Peru",
+          "lang": "ms"
+        },
+        {
+          "name": "Peru",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ပီရူး",
+          "lang": "my"
+        },
+        {
+          "name": "Incatlān",
+          "lang": "nah"
+        },
+        {
+          "name": "Peru",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pheru",
+          "lang": "nd"
+        },
+        {
+          "name": "Peru",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "पेरू",
+          "lang": "ne"
+        },
+        {
+          "name": "Peru",
+          "lang": "nl"
+        },
+        {
+          "name": "Peru",
+          "lang": "nn"
+        },
+        {
+          "name": "Peru",
+          "lang": "no"
+        },
+        {
+          "name": "Pérou",
+          "lang": "nrm"
+        },
+        {
+          "name": "Peró",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ପେରୁ",
+          "lang": "or"
+        },
+        {
+          "name": "Peru",
+          "lang": "pam"
+        },
+        {
+          "name": "Peru",
+          "lang": "pl"
+        },
+        {
+          "name": "پيرو",
+          "lang": "ps"
+        },
+        {
+          "name": "Peru",
+          "lang": "pt"
+        },
+        {
+          "name": "Piruw",
+          "lang": "qu"
+        },
+        {
+          "name": "Peru",
+          "lang": "rm"
+        },
+        {
+          "name": "Peru",
+          "lang": "rmy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "rn"
+        },
+        {
+          "name": "Peru",
+          "lang": "ro"
+        },
+        {
+          "name": "Перу",
+          "lang": "ru"
+        },
+        {
+          "name": "पेरु",
+          "lang": "sa"
+        },
+        {
+          "name": "Perù",
+          "lang": "scn"
+        },
+        {
+          "name": "Peru",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Perüu",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "පේරු",
+          "lang": "si"
+        },
+        {
+          "name": "Peru",
+          "lang": "sk"
+        },
+        {
+          "name": "Peru",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Peru",
+          "lang": "so"
+        },
+        {
+          "name": "Peruja",
+          "lang": "sq"
+        },
+        {
+          "name": "Перу",
+          "lang": "sr"
+        },
+        {
+          "name": "Peru",
+          "lang": "sv"
+        },
+        {
+          "name": "Peru",
+          "lang": "sw"
+        },
+        {
+          "name": "பெரு",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "పెరూ",
+          "lang": "te"
+        },
+        {
+          "name": "Perú",
+          "lang": "tet"
+        },
+        {
+          "name": "Перу",
+          "lang": "tg"
+        },
+        {
+          "name": "เปรู",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ፔሩ",
+          "lang": "ti"
+        },
+        {
+          "name": "Peru",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Pelū",
+          "lang": "to"
+        },
+        {
+          "name": "Peru",
+          "lang": "tr"
+        },
+        {
+          "name": "پېرۇ",
+          "lang": "ug"
+        },
+        {
+          "name": "Перу",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "پیرو",
+          "lang": "ur"
+        },
+        {
+          "name": "Peru",
+          "lang": "uz"
+        },
+        {
+          "name": "Pê-ru",
+          "lang": "vi"
+        },
+        {
+          "name": "Peruvän",
+          "lang": "vo"
+        },
+        {
+          "name": "Peru",
+          "lang": "wo"
+        },
+        {
+          "name": "פערו",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Peru",
+          "lang": "yo"
+        },
+        {
+          "name": "秘鲁",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Peru",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Peru",
+      "fclName": "country, state, region,...",
+      "countryName": "Peru",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -3,
+        "timeZoneId": "America/Paramaribo",
+        "dstOffset": -3
+      },
+      "bbox": {
+        "east": -53.978763,
+        "south": 1.83730600000007,
+        "north": 6.01550458300005,
+        "west": -58.070505999,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Republic of Suriname",
+      "astergdem": 178,
+      "countryId": "3382998",
+      "fcl": "A",
+      "srtm3": 171,
+      "countryCode": "SR",
+      "lat": "4",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-56",
+      "geonameId": 3382998,
+      "toponymName": "Republic of Suriname",
+      "population": 492829,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Suriname",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "ak"
+        },
+        {
+          "name": "ሱሪናም",
+          "lang": "am"
+        },
+        {
+          "name": "Surinam",
+          "lang": "an"
+        },
+        {
+          "name": "سورينام",
+          "lang": "ar"
+        },
+        {
+          "name": "Surinam",
+          "lang": "ast"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinamə",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Сурынам",
+          "lang": "be"
+        },
+        {
+          "name": "Суринам",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinami",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "সুরিনাম",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "སུ་རི་ནཱམ།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinam",
+          "lang": "br"
+        },
+        {
+          "name": "Surinam",
+          "lang": "bs"
+        },
+        {
+          "name": "Surinam",
+          "lang": "ca"
+        },
+        {
+          "name": "Surinam",
+          "lang": "cs"
+        },
+        {
+          "name": "Swrinam",
+          "lang": "cy"
+        },
+        {
+          "name": "Surinam",
+          "lang": "da"
+        },
+        {
+          "name": "Suriname",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Σουρινάμ",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Suriname",
+          "lang": "en"
+        },
+        {
+          "name": "Surinamo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Surinam",
+          "lang": "es"
+        },
+        {
+          "name": "Suriname",
+          "lang": "et"
+        },
+        {
+          "name": "Surinam",
+          "lang": "eu"
+        },
+        {
+          "name": "سورینام",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinaam",
+          "lang": "ff"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "fi"
+        },
+        {
+          "name": "Surinam",
+          "lang": "fo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinam",
+          "lang": "fr"
+        },
+        {
+          "name": "Suriname",
+          "lang": "frp"
+        },
+        {
+          "name": "Suranam",
+          "lang": "ga"
+        },
+        {
+          "name": "Suranam",
+          "lang": "gd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinam",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "સુરીનામ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "ha"
+        },
+        {
+          "name": "Surinam",
+          "lang": "hbs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "סורינם",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "सूरीनाम",
+          "lang": "hi"
+        },
+        {
+          "name": "Surinam",
+          "lang": "hr"
+        },
+        {
+          "name": "Suriname",
+          "lang": "hu"
+        },
+        {
+          "name": "Սուրինամ",
+          "lang": "hy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "ia"
+        },
+        {
+          "name": "Suriname",
+          "lang": "id"
+        },
+        {
+          "name": "Surinam",
+          "lang": "ilo"
+        },
+        {
+          "name": "Surinam",
+          "lang": "io"
+        },
+        {
+          "name": "Súrínam",
+          "lang": "is"
+        },
+        {
+          "name": "Suriname",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "スリナム共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "Suriname",
+          "lang": "jv"
+        },
+        {
+          "name": "სურინამი",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinamu",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "kl"
+        },
+        {
+          "name": "សូរីណាម",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಸುರಿನಾಮ",
+          "lang": "kn"
+        },
+        {
+          "name": "수리남",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "سورینام",
+          "lang": "ku"
+        },
+        {
+          "name": "Surinam",
+          "lang": "kw"
+        },
+        {
+          "name": "Surinamia",
+          "lang": "la"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinaamu",
+          "lang": "lg"
+        },
+        {
+          "name": "Suriname",
+          "lang": "li"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Suriname",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinamɛ",
+          "lang": "ln"
+        },
+        {
+          "name": "ຊູລິນາມິ",
+          "lang": "lo"
+        },
+        {
+          "name": "Surinamas",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "lu"
+        },
+        {
+          "name": "Surinama",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sorinam",
+          "lang": "mg"
+        },
+        {
+          "name": "Суринам",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "സുറിനാം",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "सुरिनाम",
+          "lang": "mr"
+        },
+        {
+          "name": "Surinam",
+          "lang": "ms"
+        },
+        {
+          "name": "Surinam",
+          "lang": "mt"
+        },
+        {
+          "name": "Surinam",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "nd"
+        },
+        {
+          "name": "Surinam",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "सुरिनेम",
+          "lang": "ne"
+        },
+        {
+          "name": "Suriname",
+          "lang": "nl"
+        },
+        {
+          "name": "Surinam",
+          "lang": "nn"
+        },
+        {
+          "name": "Surinam",
+          "lang": "no"
+        },
+        {
+          "name": "Surinam",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ସୁରିନାମ",
+          "lang": "or"
+        },
+        {
+          "name": "Suriname",
+          "lang": "pam"
+        },
+        {
+          "name": "Surinam",
+          "lang": "pl"
+        },
+        {
+          "name": "سورينام",
+          "lang": "ps"
+        },
+        {
+          "name": "Suriname",
+          "lang": "pt"
+        },
+        {
+          "name": "Surinam",
+          "lang": "qu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinam",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "rn"
+        },
+        {
+          "name": "Surinam",
+          "lang": "ro"
+        },
+        {
+          "name": "Суринам",
+          "lang": "ru"
+        },
+        {
+          "name": "सुरिनाम",
+          "lang": "sa"
+        },
+        {
+          "name": "Surinami",
+          "lang": "scn"
+        },
+        {
+          "name": "Suriname",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinäm",
+          "lang": "sg"
+        },
+        {
+          "name": "Surinam",
+          "lang": "sk"
+        },
+        {
+          "name": "Surinam",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Suriname",
+          "lang": "so"
+        },
+        {
+          "name": "Surinami",
+          "lang": "sq"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Суринами",
+          "lang": "sr"
+        },
+        {
+          "name": "Surinam",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Surinamu",
+          "lang": "sw"
+        },
+        {
+          "name": "சுரிநாம்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "సురినామ్",
+          "lang": "te"
+        },
+        {
+          "name": "Suriname",
+          "lang": "tet"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ซูรินาเม",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ሱሪናም",
+          "lang": "ti"
+        },
+        {
+          "name": "Suriname",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Sulinami",
+          "lang": "to"
+        },
+        {
+          "name": "Surinam",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Сурінам",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "سورینام",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Xu-ri-nam (Suriname)",
+          "lang": "vi"
+        },
+        {
+          "name": "Surinän",
+          "lang": "vo"
+        },
+        {
+          "name": "סורינאם",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Surinami",
+          "lang": "yo"
+        },
+        {
+          "name": "苏里南",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Suriname",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Suriname",
+      "fclName": "country, state, region,...",
+      "countryName": "Suriname",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -3,
+        "timeZoneId": "America/Montevideo",
+        "dstOffset": -3
+      },
+      "bbox": {
+        "east": -53.1810509360802,
+        "south": -35.047943,
+        "north": -30.0855024328825,
+        "west": -58.4393489790361,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Oriental Republic of Uruguay",
+      "astergdem": 122,
+      "countryId": "3439705",
+      "fcl": "A",
+      "srtm3": 115,
+      "countryCode": "UY",
+      "lat": "-33",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-56",
+      "geonameId": 3439705,
+      "toponymName": "Oriental Republic of Uruguay",
+      "population": 3477000,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Uruguay",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Yurugwae",
+          "lang": "ak"
+        },
+        {
+          "name": "ኡራጓይ",
+          "lang": "am"
+        },
+        {
+          "name": "Uruguai",
+          "lang": "an"
+        },
+        {
+          "isPreferredName": true,
+          "name": "أورجواي",
+          "lang": "ar"
+        },
+        {
+          "name": "Uruqvay",
+          "lang": "az"
+        },
+        {
+          "name": "Уругвай",
+          "lang": "be"
+        },
+        {
+          "name": "Уругвай",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Urugwayi",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "উরুগোয়ে",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཨུ་རུ་གྷེ།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "br"
+        },
+        {
+          "name": "Urugvaj",
+          "lang": "bs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguai",
+          "lang": "ca"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "cs"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "cy"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "da"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "uruguaydukɔ",
+          "lang": "ee"
+        },
+        {
+          "name": "Ουρουγουάη",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Uruguay",
+          "lang": "en"
+        },
+        {
+          "name": "Urugvajo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "es"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "et"
+        },
+        {
+          "name": "Uruguai",
+          "lang": "eu"
+        },
+        {
+          "name": "اروگوئه",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguwaay",
+          "lang": "ff"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "fi"
+        },
+        {
+          "name": "Uruguei",
+          "lang": "fo"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "fr"
+        },
+        {
+          "name": "Uragua",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguai",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ઉરુગ્વે",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Yurugai",
+          "lang": "ha"
+        },
+        {
+          "name": "Urugvaj",
+          "lang": "hbs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "אורגוואי",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "उरूग्वे",
+          "lang": "hi"
+        },
+        {
+          "name": "Urugvaj",
+          "lang": "hr"
+        },
+        {
+          "name": "Irigwe",
+          "lang": "ht"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "hu"
+        },
+        {
+          "name": "Ուրուգվայ",
+          "lang": "hy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "ia"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "id"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "ilo"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "io"
+        },
+        {
+          "name": "Úrúgvæ",
+          "lang": "is"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ウルグアイ共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "ურუგვაი",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Urugwai",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "kl"
+        },
+        {
+          "name": "អ៊ុយរុយហ្គាយ",
+          "lang": "km"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಉರುಗ್ವೇ",
+          "lang": "kn"
+        },
+        {
+          "name": "우루과이",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ئوروگوای",
+          "lang": "ku"
+        },
+        {
+          "name": "Urugway",
+          "lang": "kw"
+        },
+        {
+          "name": "Uraquaria",
+          "lang": "la"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Wurugwayi",
+          "lang": "lg"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Uruguay",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Irigwei",
+          "lang": "ln"
+        },
+        {
+          "name": "ລູກວຍອຸຣ",
+          "lang": "lo"
+        },
+        {
+          "name": "Urugvajus",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Irigwei",
+          "lang": "lu"
+        },
+        {
+          "name": "Urugvaja",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orogoay",
+          "lang": "mg"
+        },
+        {
+          "name": "Уругвај",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഉറുഗ്വേ",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "उरुग्वे",
+          "lang": "mr"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "ms"
+        },
+        {
+          "name": "Urugwaj",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ဥရုဂွေး",
+          "lang": "my"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Yurugwai",
+          "lang": "nd"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "युरूगुए",
+          "lang": "ne"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "nl"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "nn"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "no"
+        },
+        {
+          "name": "Uruguai",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଉରୁଗୁଏ",
+          "lang": "or"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "pam"
+        },
+        {
+          "name": "Urugwaj",
+          "lang": "pl"
+        },
+        {
+          "name": "یوروګوای",
+          "lang": "ps"
+        },
+        {
+          "name": "Uruguai",
+          "lang": "pt"
+        },
+        {
+          "name": "Uruwayi",
+          "lang": "qu"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Irigwe",
+          "lang": "rn"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "ro"
+        },
+        {
+          "name": "Уругвай",
+          "lang": "ru"
+        },
+        {
+          "name": "उरुग्वाय",
+          "lang": "sa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguëe",
+          "lang": "sg"
+        },
+        {
+          "name": "Uruguaj",
+          "lang": "sk"
+        },
+        {
+          "name": "Urugvaj",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguay",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Uruguwaay",
+          "lang": "so"
+        },
+        {
+          "name": "Uruguaji",
+          "lang": "sq"
+        },
+        {
+          "name": "Уругвај",
+          "lang": "sr"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "sv"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "sw"
+        },
+        {
+          "name": "உருகுவே",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఉరుగువే",
+          "lang": "te"
+        },
+        {
+          "name": "Uruguai",
+          "lang": "tet"
+        },
+        {
+          "name": "Уругуай",
+          "lang": "tg"
+        },
+        {
+          "name": "อุรุกวัย",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ኡራጓይ",
+          "lang": "ti"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "tl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻUlukuei",
+          "lang": "to"
+        },
+        {
+          "name": "Uruguay",
+          "lang": "tr"
+        },
+        {
+          "name": "ئۇرۇگۋاي",
+          "lang": "ug"
+        },
+        {
+          "name": "Уруґвай",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "یوروگوئے",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "U-ru-goay (Uruguay)",
+          "lang": "vi"
+        },
+        {
+          "name": "אורוגוויי",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Nruguayi",
+          "lang": "yo"
+        },
+        {
+          "name": "乌拉圭",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Uruguay",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Uruguay",
+      "fclName": "country, state, region,...",
+      "countryName": "Uruguay",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -4,
+        "timeZoneId": "America/Caracas",
+        "dstOffset": -4
+      },
+      "bbox": {
+        "east": -59.80378,
+        "south": 0.626311,
+        "north": 12.201903,
+        "west": -73.354073,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Bolivarian Republic of Venezuela",
+      "astergdem": 68,
+      "countryId": "3625428",
+      "fcl": "A",
+      "srtm3": 68,
+      "countryCode": "VE",
+      "lat": "8",
+      "fcode": "PCLI",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-66",
+      "geonameId": 3625428,
+      "toponymName": "Bolivarian Republic of Venezuela",
+      "population": 27223228,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "name": "Venezuela",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "ak"
+        },
+        {
+          "name": "ቬንዙዌላ",
+          "lang": "am"
+        },
+        {
+          "name": "Benezuela",
+          "lang": "an"
+        },
+        {
+          "name": "فنزويلا",
+          "lang": "ar"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "ast"
+        },
+        {
+          "name": "Venesuela",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Венесуэла",
+          "lang": "be"
+        },
+        {
+          "name": "Венецуела",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuwela",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ভেনিজুয়েলা",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཝེ་ནི་ཛུའེ་ལ།",
+          "lang": "bo"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "br"
+        },
+        {
+          "name": "Venecuela",
+          "lang": "bs"
+        },
+        {
+          "name": "Veneçuela",
+          "lang": "ca"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "cs"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "cy"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "da"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela nutome",
+          "lang": "ee"
+        },
+        {
+          "name": "Βενεζουέλα",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "en"
+        },
+        {
+          "name": "Venezuelo",
+          "lang": "eo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venetsueela",
+          "lang": "et"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "eu"
+        },
+        {
+          "name": "ونزوئلا",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Wenesuwelaa",
+          "lang": "ff"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "fi"
+        },
+        {
+          "name": "Venesuela",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Vénézuéla",
+          "lang": "fr"
+        },
+        {
+          "name": "Venezuèla",
+          "lang": "frp"
+        },
+        {
+          "name": "Veiniséala",
+          "lang": "ga"
+        },
+        {
+          "name": "A Bheiniseala",
+          "lang": "gd"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "વેનેઝુએલા",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Benezuwela",
+          "lang": "ha"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "hbs"
+        },
+        {
+          "name": "ונצואלה",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "वेनेज़्वेला",
+          "lang": "hi"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "hr"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "hu"
+        },
+        {
+          "name": "Վենեսուելա",
+          "lang": "hy"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "ia"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "id"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "ilo"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "io"
+        },
+        {
+          "name": "Venesúela",
+          "lang": "is"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ベネズエラ共和国",
+          "lang": "ja"
+        },
+        {
+          "name": "ვენესუელა",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "kl"
+        },
+        {
+          "name": "វេនេហ្ស៊ុយឡា",
+          "lang": "km"
+        },
+        {
+          "name": "ವೆನೆಜುವೆಲಾ",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "베네주엘라",
+          "lang": "ko"
+        },
+        {
+          "name": "Venezuêla",
+          "lang": "ku"
+        },
+        {
+          "name": "Veneswela",
+          "lang": "kw"
+        },
+        {
+          "name": "Venetiola",
+          "lang": "la"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "lad"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venzwera",
+          "lang": "lg"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "lij"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Venezuela",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venézuela",
+          "lang": "ln"
+        },
+        {
+          "name": "ເວເນຊູເອລາ",
+          "lang": "lo"
+        },
+        {
+          "name": "Venesuela",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "lu"
+        },
+        {
+          "name": "Venecuēla",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezoelà",
+          "lang": "mg"
+        },
+        {
+          "name": "Венецуела",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "വെനിസ്വേല",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "व्हेनेझुएला",
+          "lang": "mr"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "ms"
+        },
+        {
+          "name": "Venezwela",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ဗင်နီဇွဲလား",
+          "lang": "my"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "nd"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "nds"
+        },
+        {
+          "isPreferredName": true,
+          "name": "भेनेजुएला",
+          "lang": "ne"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "nl"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "nn"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "no"
+        },
+        {
+          "name": "Veneçuèla",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଭେନଜୁଏଲା",
+          "lang": "or"
+        },
+        {
+          "name": "Beneswela",
+          "lang": "pam"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "pap"
+        },
+        {
+          "name": "Wenezuela",
+          "lang": "pl"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "pt"
+        },
+        {
+          "name": "Winisuyla",
+          "lang": "qu"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuwela",
+          "lang": "rn"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "ro"
+        },
+        {
+          "name": "Венесуэла",
+          "lang": "ru"
+        },
+        {
+          "name": "वेनेजुयेला",
+          "lang": "sa"
+        },
+        {
+          "name": "Venezzuela",
+          "lang": "scn"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezueläa",
+          "lang": "sg"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "sk"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Venezuela",
+          "lang": "sn"
+        },
+        {
+          "name": "Fenisuweela",
+          "lang": "so"
+        },
+        {
+          "name": "Venezuelë",
+          "lang": "sq"
+        },
+        {
+          "name": "Венецуела",
+          "lang": "sr"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "sv"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "sw"
+        },
+        {
+          "name": "வெனிசுவேலா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "వెనుజువేలా",
+          "lang": "te"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "tet"
+        },
+        {
+          "name": "Венесуэла",
+          "lang": "tg"
+        },
+        {
+          "name": "ประเทศเวเนซุเอลา",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ቬንዙዌላ",
+          "lang": "ti"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "tl"
+        },
+        {
+          "name": "Venisuela",
+          "lang": "to"
+        },
+        {
+          "name": "Venezuela",
+          "lang": "tr"
+        },
+        {
+          "name": "ۋېنېسۇئېلا",
+          "lang": "ug"
+        },
+        {
+          "name": "Венесуела",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "وینزوئیلا",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Vê-nê-zu-ê-la (Venezuela)",
+          "lang": "vi"
+        },
+        {
+          "name": "Venesolän",
+          "lang": "vo"
+        },
+        {
+          "name": "ווענעזועלע",
+          "lang": "yi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Fẹnẹṣuẹla",
+          "lang": "yo"
+        },
+        {
+          "name": "委內瑞拉",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Venezuela",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Venezuela",
+      "fclName": "country, state, region,...",
+      "countryName": "Venezuela",
+      "fcodeName": "independent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -3,
+        "timeZoneId": "Atlantic/Stanley",
+        "dstOffset": -3
+      },
+      "bbox": {
+        "east": -57.718087652,
+        "south": -52.919029119,
+        "north": -51.0116431769999,
+        "west": -61.3474566739999,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Falkland Islands",
+      "astergdem": 25,
+      "countryId": "3474414",
+      "fcl": "A",
+      "srtm3": 17,
+      "countryCode": "FK",
+      "lat": "-51.75",
+      "fcode": "PCLD",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-59.16667",
+      "geonameId": 3474414,
+      "toponymName": "Falkland Islands",
+      "population": 2638,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Falklandeilande",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fɔlkman Aeland",
+          "lang": "ak"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፎልክላንድ ደሴቶች",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزر فوكلاند",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Folkland Adaları",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фолклэндскія астравы",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фолклендски острови",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Maluwini Gun",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ফকল্যান্ড দ্বীপপুঞ্জ",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ཕལྐ་ལནྜ་གླིང་ཕྲན།",
+          "lang": "bo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Inizi Falkland",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Folklandska Ostrva",
+          "lang": "bs"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Illes Malvines",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandské ostrovy",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ynysoedd y Falkland",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsøerne",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandinseln",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland ƒudomekpowo nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Νήσοι Φώκλαντ",
+          "lang": "el"
+        },
+        {
+          "isShortName": true,
+          "name": "Falkland Islands",
+          "lang": "en"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Islas Malvinas",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandi saared",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Malvinak",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "جزایر فالکلند",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Duuɗe Falkland",
+          "lang": "ff"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandinsaaret",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsoyggjarnar",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Îles Malouines",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Oileáin Fháclainne",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Illas Malvinas",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ફૉકલૅંડ આઇલૅંડ્સ",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Tsibiran Falkilan",
+          "lang": "ha"
+        },
+        {
+          "isPreferredName": true,
+          "name": "איי פוקלנד",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ़ॉकलैंड द्वीप",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandi",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland-szigetek",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Kepulauan Malvinas",
+          "lang": "id"
+        },
+        {
+          "name": "Falklandseyjar",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Isole Falkland",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "フォークランド諸島",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ფალკლენდის კუნძულები",
+          "lang": "ka"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Visiwa vya Falkland",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandi qeqertaq",
+          "lang": "kl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಫ್ಹಾಕ್\u200cಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳು",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "포클랜드 제도",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bizinga by'eFalikalandi",
+          "lang": "lg"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/Falkland_Islands",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Bisanga bya Maluni",
+          "lang": "ln"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklando salos",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Lutanda lua Maluni",
+          "lang": "lu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Folklenda salas",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Nosy Falkand",
+          "lang": "mg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фолкландски Острови",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഫാക്ക്\u200cലാന്റ് ഐലന്റ്",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फॉकलंड बेटे",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland Islands",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland Islands",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ဖောက်ကလန် ကျွန်းစု",
+          "lang": "my"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsøyene",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland Islands",
+          "lang": "nd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फकल्याण्ड टापु",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandeilanden",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsøyane",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଫଲ୍କଲ୍ୟାଣ୍ଡ ଦ୍ବୀପପୁଞ୍ଜ",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandy",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ilhas Malvinas",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Inslas dal Falkland",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Izinga rya Filikilandi",
+          "lang": "rn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Insulele Falkland",
+          "lang": "ro"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фолклендские о-ва",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsullot",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Âzûâ tî Mälüîni",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ෆෝක්ලන්ත දූපත්",
+          "lang": "si"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandské ostrovy",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandski otoki",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Zvitsuwa zveFalklands",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Jaziiradaha Fooklaan",
+          "lang": "so"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фокландска острва",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falklandsöarna",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Visiwa vya Falkland",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ஃபாக்லாந்து தீவுகள்",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఫాక్ లేండ్ దీవులు",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "หมู่เกาะฟอล์กแลนด์",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፎልክላንድ ደሴቶች",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ʻOtumotu Fokuleni",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falkland Adaları",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Фолклендські острови",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "فاکلینڈ آئلینڈز",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Quần Đảo Falkland",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Etikun Fakalandi",
+          "lang": "yo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "福克兰群岛",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "i-Falkland Islands",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "Falkland Islands",
+      "fclName": "country, state, region,...",
+      "countryName": "Falkland Islands",
+      "fcodeName": "dependent political entity",
+      "adminName1": ""
+    },
+    {
+      "timezone": {
+        "gmtOffset": -3,
+        "timeZoneId": "America/Cayenne",
+        "dstOffset": -3
+      },
+      "bbox": {
+        "east": -51.619065827085,
+        "south": 2.11107565187642,
+        "north": 5.7481556027856175,
+        "west": -54.6024155447667,
+        "accuracyLevel": 10
+      },
+      "asciiName": "Guyane",
+      "astergdem": 202,
+      "countryId": "3381670",
+      "fcl": "A",
+      "srtm3": 195,
+      "cc2": "GF,FR",
+      "countryCode": "GF",
+      "lat": "4",
+      "fcode": "PCLD",
+      "continentCode": "SA",
+      "adminCode1": "00",
+      "lng": "-53",
+      "geonameId": 3381670,
+      "toponymName": "Guyane",
+      "population": 195506,
+      "adminName5": "",
+      "adminName4": "",
+      "adminName3": "",
+      "alternateNames": [
+        {
+          "isPreferredName": true,
+          "name": "Frans-Guyana",
+          "lang": "af"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frɛnkye Gayana",
+          "lang": "ak"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፈረንሳይ ጉዊአና",
+          "lang": "am"
+        },
+        {
+          "isPreferredName": true,
+          "name": "غويانا الفرنسية",
+          "lang": "ar"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransız Quyanası",
+          "lang": "az"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Французская Гвіяна",
+          "lang": "be"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Френска Гвиана",
+          "lang": "bg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Faransi ka gwiyani",
+          "lang": "bm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ফরাসী গায়ানা",
+          "lang": "bn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwiana cʼhall",
+          "lang": "br"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francuska Gvajana",
+          "lang": "bs"
+        },
+        {
+          "isShortName": true,
+          "isPreferredName": true,
+          "name": "Guaiana Francesa",
+          "lang": "ca"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francouzská Guyana",
+          "lang": "cs"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giana Ffrengig",
+          "lang": "cy"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransk Guyana",
+          "lang": "da"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Französisch-Guayana",
+          "lang": "de"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frentsi Gayana nutome",
+          "lang": "ee"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Γαλλική Γουιάνα",
+          "lang": "el"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Guiana",
+          "lang": "en"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franca Gviano",
+          "lang": "eo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guayana Francesa",
+          "lang": "es"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Prantsuse Guajaana",
+          "lang": "et"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana Frantsesa",
+          "lang": "eu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "گویان فرانسه",
+          "lang": "fa"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giyaan Farayse",
+          "lang": "ff"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Ranskan Guayana",
+          "lang": "fi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransk Gujana",
+          "lang": "fo"
+        },
+        {
+          "isShortName": true,
+          "name": "Guyane",
+          "lang": "fr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "An Ghuáin Fhrancach",
+          "lang": "ga"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Güiana Francesa",
+          "lang": "gl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ફ્રેંચ ગયાના",
+          "lang": "gu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gini Ta Faransa",
+          "lang": "ha"
+        },
+        {
+          "isPreferredName": true,
+          "name": "גיאנה הצרפתית",
+          "lang": "he"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ़्रांसीसी गिआना",
+          "lang": "hi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francuska Gvajana",
+          "lang": "hr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francia Guyana",
+          "lang": "hu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana francese",
+          "lang": "ia"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana Perancis",
+          "lang": "id"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franska Gvæjana",
+          "lang": "is"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guiana Francese",
+          "lang": "it"
+        },
+        {
+          "isPreferredName": true,
+          "name": "仏領ギアナ",
+          "lang": "ja"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwiyana ya Ufaransa",
+          "lang": "ki"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ಫ್ರೆಂಚ್ ಗಯಾನಾ",
+          "lang": "kn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "프랑스령 기아나",
+          "lang": "ko"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana enfalansa",
+          "lang": "lg"
+        },
+        {
+          "name": "https://en.wikipedia.org/wiki/French_Guiana",
+          "lang": "link"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giyanɛ ya Falánsɛ",
+          "lang": "ln"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ເຟັນສກິວນາ",
+          "lang": "lo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Prancūzijos Gviana",
+          "lang": "lt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Giyane wa Nfalanse",
+          "lang": "lu"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franču Gviāna",
+          "lang": "lv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana frantsay",
+          "lang": "mg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Француска Гвајана",
+          "lang": "mk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ഫ്രഞ്ച് ഗയാന",
+          "lang": "ml"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ्रेंच गयाना",
+          "lang": "mr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Guiana",
+          "lang": "ms"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gujana Franċiża",
+          "lang": "mt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ပြင်သစ် ဂီယာနာ",
+          "lang": "my"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransk Guyana",
+          "lang": "nb"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwiyana ye Furansi",
+          "lang": "nd"
+        },
+        {
+          "isPreferredName": true,
+          "name": "फ्रान्सेली गायना",
+          "lang": "ne"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frans-Guyana",
+          "lang": "nl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransk Guyana",
+          "lang": "nn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guiana francesa",
+          "lang": "oc"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ଫ୍ରେଞ୍ଚ ଗୁଇନା",
+          "lang": "or"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gujana Francuska",
+          "lang": "pl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guiana Francesa",
+          "lang": "pt"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana Franzosa",
+          "lang": "rm"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwayana y'Abafaransa",
+          "lang": "rn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Guyana Franceză",
+          "lang": "ro"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Французская Гвиана",
+          "lang": "ru"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Frankriikka Guayana",
+          "lang": "se"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Güyâni tî farânzi",
+          "lang": "sg"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ප්\u200dරංශ ගයනාව",
+          "lang": "si"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francúzska Guayana",
+          "lang": "sk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Francoska Gvajana",
+          "lang": "sl"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Guiana",
+          "lang": "sn"
+        },
+        {
+          "isPreferredName": true,
+          "name": "French Guiana",
+          "lang": "so"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Француска Гвајана",
+          "lang": "sr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Franska Guyana",
+          "lang": "sv"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Gwiyana ya Ufaransa",
+          "lang": "sw"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ஃப்ரென்ச் கயானா",
+          "lang": "ta"
+        },
+        {
+          "isPreferredName": true,
+          "name": "ఫ్రెంచ్ గియానా",
+          "lang": "te"
+        },
+        {
+          "isPreferredName": true,
+          "name": "เฟรนช์เกียนา",
+          "lang": "th"
+        },
+        {
+          "isPreferredName": true,
+          "name": "የፈረንሳይ ጉዊአና",
+          "lang": "ti"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Falanise Kuiana",
+          "lang": "to"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Fransız Guyanası",
+          "lang": "tr"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Французька Гвіана",
+          "lang": "uk"
+        },
+        {
+          "isPreferredName": true,
+          "name": "فرینچ گیانا",
+          "lang": "ur"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Quiana thuộc Pháp",
+          "lang": "vi"
+        },
+        {
+          "isPreferredName": true,
+          "name": "Orílẹ́ède Firenṣi Guana",
+          "lang": "yo"
+        },
+        {
+          "isPreferredName": true,
+          "name": "法属圭亚那",
+          "lang": "zh"
+        },
+        {
+          "isPreferredName": true,
+          "name": "isi-French Guiana",
+          "lang": "zu"
+        }
+      ],
+      "adminName2": "",
+      "name": "French Guiana",
+      "fclName": "country, state, region,...",
+      "countryName": "French Guiana",
+      "fcodeName": "dependent political entity",
+      "adminName1": ""
+    }
+  ]
+}
