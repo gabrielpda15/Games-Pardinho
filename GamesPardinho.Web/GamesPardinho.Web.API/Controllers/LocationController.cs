@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using AutoMapper;
+using GamesPardinho.Web.Models.Repository.Base;
+using GamesPardinho.Web.Models.Repository.Repositories.Location;
 
 namespace GamesPardinho.Web.API.Controllers
 {
@@ -20,6 +22,30 @@ namespace GamesPardinho.Web.API.Controllers
     [Route("api/[controller]/{lang}")]
     public class LocationController : ControllerBase
     {
+        protected CountryRepository CountryRepository { get; }
+        protected RegionRepository RegionRepository { get; }
+        protected CityRepository CityRepository { get; }
+        protected IUserContext UserContext { get; }
+
+        public LocationController(IUnitOfWork unitOfWork, IUserContext userContext) : base()
+        {
+            CountryRepository = unitOfWork.GetRepository<Country, CountryRepository>();
+            RegionRepository = unitOfWork.GetRepository<Region, RegionRepository>();
+            CityRepository = unitOfWork.GetRepository<City, CityRepository>();
+
+            UserContext = userContext;
+        }
+
+        [AllowAnonymous]
+        [HttpGet("Countries")]
+        [ProducesResponseType(typeof(IEnumerable<Country>), StatusCodes.Status200OK)]
+        [ProducesDefaultResponseType]
+        public async Task<IActionResult> GetCountries(CancellationToken ct)
+        {
+            return Ok(await CountryRepository.QueryAsync(x => x, UserContext, x => x.OrderBy(o => o.Name), ct));
+        }
+
+        /*
         private const string BASE_ADDRESS = "https://www.geonames.org/";
         private const string REQUEST_FORMAT = "childrenJSON?formatted=true&geonameId={0}&style=full";
         private const int CONTINENTS_ID = 6295630;
@@ -148,6 +174,6 @@ namespace GamesPardinho.Web.API.Controllers
         public async Task<IActionResult> GetCityStateValues([FromRoute]string lang, [FromRoute]int id, CancellationToken ct)
         {
             return Ok(Map(await GetWithId(id, ct), lang).Select(x => ((dynamic)x).Name));
-        }
+        }*/
     }
 }

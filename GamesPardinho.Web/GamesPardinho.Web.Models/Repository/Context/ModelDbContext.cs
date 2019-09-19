@@ -1,5 +1,6 @@
 ﻿using GamesPardinho.Web.Models.Entities;
 using GamesPardinho.Web.Models.Entities.League;
+using GamesPardinho.Web.Models.Entities.Location;
 using GamesPardinho.Web.Models.Entities.Relations;
 using GamesPardinho.Web.Models.Entities.Security;
 using GamesPardinho.Web.Models.Repository.Configuration;
@@ -20,6 +21,11 @@ namespace GamesPardinho.Web.Models.Repository.Context
         public DbSet<LeagueTeam> LeagueTeams { get; set; }
         public DbSet<LeagueTournament> LeagueTournaments { get; set; }
 
+        // Location
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<City> Cities { get; set; }
+
         // Security
         public DbSet<Menu> Menus { get; set; }
 
@@ -34,7 +40,10 @@ namespace GamesPardinho.Web.Models.Repository.Context
 
             builder.Entity<LeagueAccount>().HasOne(x => x.Identity).WithOne(x => x.LeagueAccount).HasForeignKey<Identity>(x => x.LeagueAccountId);
             builder.Entity<LeagueTeam>().HasOne(x => x.Tournament).WithMany(x => x.Teams);
-
+            
+            builder.Entity<Country>().HasMany(x => x.Regions).WithOne().HasForeignKey(x => x.CountryId).OnDelete(DeleteBehavior.Cascade);
+            builder.Entity<Region>().HasMany(x => x.Cities).WithOne().HasForeignKey(x => x.RegionId).OnDelete(DeleteBehavior.Cascade);
+            builder.Entity<City>().HasOne<Country>().WithMany().HasForeignKey(x => x.CountryId).OnDelete(DeleteBehavior.NoAction);
 
             // Config Tables
             builder.Entity<Identity>().ToTable("Security_IdentityUser");

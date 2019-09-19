@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GamesPardinho.Web.Extensions;
+using GamesPardinho.Web.Models.Entities.Location;
 using GamesPardinho.Web.Models.Entities.Security;
 using GamesPardinho.Web.Models.Repository;
 using GamesPardinho.Web.Models.Repository.Base;

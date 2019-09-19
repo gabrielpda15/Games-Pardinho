@@ -30,6 +30,11 @@ namespace GamesPardinho.Web.Models.Repository
             return (IAsyncRepository<TEntity>)Repositories[typeof(TEntity)];
         }
 
+        public TRepository GetRepository<TEntity, TRepository>() where TEntity : class, IBaseEntity where TRepository : BaseRepository<TEntity, ModelDbContext>
+        {
+            return (TRepository)Repositories[typeof(TEntity)];
+        }
+
         private void LoadRepos(string source)
         {
             var assembly = Assembly.GetAssembly(this.GetType());
