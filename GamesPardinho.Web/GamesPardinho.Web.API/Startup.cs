@@ -50,6 +50,8 @@ namespace GamesPardinho.Web.API
             {
                 options.UseLazyLoadingProxies();
                 options.UseSqlServer(Configuration.GetConnectionString(CONN_STRING));
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+                options.EnableSensitiveDataLogging(true);
             });
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();

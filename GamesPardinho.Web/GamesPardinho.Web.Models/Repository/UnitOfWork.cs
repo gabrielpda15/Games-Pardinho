@@ -51,5 +51,29 @@ namespace GamesPardinho.Web.Models.Repository
         {
             await Context.SaveChangesAsync(ct);
         }
+
+        public async Task ExecuteAsync(Func<ModelDbContext, CancellationToken, Task> action, CancellationToken ct = default)
+        {
+            using (var transaction = await Context.Database.BeginTransactionAsync(ct))
+            {
+                await action(Context, ct);
+
+                await transaction.CommitAsync(ct);
+            }
+        }
+
+        public async Task<TOutput> ExecuteAsync<TOutput>(Func<ModelDbContext, CancellationToken, Task<TOutput>> action, CancellationToken ct = default)
+        {
+            TOutput output;
+
+            using (var transaction = await Context.Database.BeginTransactionAsync(ct))
+            {
+                output = await action(Context, ct);
+
+                await transaction.CommitAsync(ct);
+            }
+
+            return output;
+        }
     }
 }
