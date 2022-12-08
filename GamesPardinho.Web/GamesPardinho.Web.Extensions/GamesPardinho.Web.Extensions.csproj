@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.0.0-preview8.19405.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0-preview8.19405.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="3.0.0-preview8-28405-07" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
 
   <ItemGroup>
